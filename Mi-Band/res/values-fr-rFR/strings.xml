@@ -652,7 +652,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="sport_running_speed">Vitesse</string>
     <string name="sport_running_speed_with_unit">Vitesse (km/h)</string>
     <string name="sport_running_real_time_pace">Rythme (m/km)</string>
-    <string name="sport_running_pace">Rythme</string>
+    <string name="sport_running_pace">Rythmes</string>
     <string name="sport_running_set_goal">Rappel objetif</string>
     <string name="sport_running_set_dist">Rappel distance</string>
     <string name="sport_running_speed_detail">%.2fkm/h</string>
