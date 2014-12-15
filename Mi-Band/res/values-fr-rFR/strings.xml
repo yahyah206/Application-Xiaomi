@@ -558,12 +558,22 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="closed">Aucun</string>
     <string name="birthday">Anniversaire</string>
     <string name="user_agreement_ux">"Rejoignez Programme d'amélioration UX"</string>
-    <string name="weight_test_dynamic_detail">Poids:%1$s%2$s</string>
+    <string name="weight_test_dynamic_detail">Poids: %1$s%2$s</string>
     <string name="weight_test_dynamic_title">%1$s</string>
     <string name="bind_devices">Appareils lier</string>
     <string name="bind_mi_band">Mi-Band lier</string>
     <string name="bind_mi_band_about"><Data>&lt;a href=http://www.mi.com>View Mi Bind Website&lt;/a></Data></string>
-    <string name="read_useragreement">"J'ai lu l'accord de l'utilisateur et politique de confidentialité."</string>
+    <string name="read_useragreement">"J'ai lu l'accord de l'utilisateur et politique de confidentialité"</string>
+    <string name="search_weight_scale">Recherche Poids</string>
+    <string name="search_weight_scale_info">S\'il vous plaît rester près de la Balance</string>
+    <string name="weight_device_list">Balances à proximité</string>
+    <string name="set_unit">Set Unit</string>
+    <string name="weight_unbinded">Libération Balance</string>
+    <string name="weight_scale">Balance</string>
+    <string name="band">Mi-Band</string>
+    <string name="bind_weight_scale">Balance lier</string>
+    <string name="connected_broadcast">Connexion de diffusion</string>
+    <string name="connected_broadcast_tips">Utilisé pour tester l\'utilisation du contrôle d\'accès</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
@@ -652,7 +662,8 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="sport_running_speed">Vitesse</string>
     <string name="sport_running_speed_with_unit">Vitesse (km/h)</string>
     <string name="sport_running_real_time_pace">Rythme (m/km)</string>
-    <string name="sport_running_pace">Rythmes</string>
+    <string name="sport_running_pace">Rythme</string>
+    <string name="sport_running_pace_lable">Paix</string>
     <string name="sport_running_set_goal">Rappel objetif</string>
     <string name="sport_running_set_dist">Rappel distance</string>
     <string name="sport_running_speed_detail">%.2fkm/h</string>
@@ -680,27 +691,33 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="sport_running_history_date" formatted="false">%d/%d/%d</string>
     <string name="sport_running_history_no_data">Aucune données</string>
     <string name="sport_running_cost_cal">%.1f cal</string>
-    <string name="sport_running_prepare_map">Préparation pour le partage...</string>
+    <string name="sport_running_prepare_map">Préparation des données pour le partage...</string>
     <string name="sport_running_prompt_per_kilometer" formatted="false">Vous avez couru %s km. Ce coût %s. Le rythme est %s.%s</string>
     <string name="sport_running_prompt_great">Fantastique !!</string>
     <string name="sport_running_prompt_come_on">Allez !!</string>
     <string name="sport_running_kilometers">km</string>
     <string name="sport_running_per_kilometers">/km</string>
     <string name="sport_running_kilometers_per_hour">km/h</string>
+    <string name="sport_running_gps_locating">Localisation GPS...</string>
+    <string name="sport_running_set_pace">Réglez le rythme</string>
+    <string name="sport_running_lable_miles_fastest">km plus rapide</string>
+    <string name="sport_running_lable_km_slowest">km plus lent</string>
     <string name="sport_ranking_desc_poor">%s des utilisateurs peuvent vous battre, allez !</string>
-    <string name="sport_ranking_desc_normal" formatted="false">Vous avez battu &lt;b>%s%&lt;/b> des %s utilisateurs.</string>
+    <string name="sport_ranking_desc_normal" formatted="false">Vous avez battu &lt;b>%s%&lt;/b> Mi-Band %s utilisateurs.</string>
     <string name="sport_ranking_desc_great">"WOW, vous êtes imbattable aujourd'hui!"</string>
     <string name="sport_new_record_ropeskipping">Nouveau record</string>
     <string name="percent_mark">%</string>
-    <string name="share_step_ranking">Vous martelé &lt;b>%s&lt;/b> utilisateurs.</string>
+    <string name="share_step_ranking">Vous martelé &lt;b>%s&lt;/b> des utilisateurs du Mi-Band</string>
     <string name="buy_bracelet_desc">Acheter un Mi-Band.</string>
     <string name="bracelet_store_desc">Magasin Mi-Band</string>
     <string name="title_activity_open">Partner Bind Page</string>
-    <string name="lab_factory_cancel_deauthorize">Unbind</string>
-    <string name="state_deauthorization_success">Deauthorize success!</string>
-    <string name="state_deauthorization_error">Deauthorize failed!</string>
-    <string name="state_authorization_error">Authorize failed!</string>
-    <string name="state_authorization_success">Authorize success!</string>
+    <string name="lab_factory_cancel_deauthorize">Délier</string>
+    <string name="state_deauthorization_success">Retirer l\'autorisation avec succèss !</string>
+    <string name="state_deauthorization_doing">Retrait d\'autorisation ...</string>
+    <string name="state_deauthorization_error">Retirer l\'autorisation échoué !</string>
+    <string name="state_authorization_error">Autoriser échoué !</string>
+    <string name="state_authorization_doing">Autoriser ...</string>
+    <string name="state_authorization_success">Autoriser avec succès !</string>
     <string name="congrats">Félicitations</string>
     <string name="bind_qq_health_tip_init">Se connecter pour terminer la liaison QQ santé</string>
     <string name="bind_qq_health_tip_another_qq">Votre compte mobile de QQ est actuellement connecté et permet de voir les données en matière de santé</string>
@@ -733,7 +750,18 @@ Du lundi au dimanche, 8:00 - 18:00"</string>
     <string name="unknown_mili">Mon</string>
     <string name="enable_hidden_feature">Activité cachée activé</string>
     <string name="disable_hidden_feature">Activité cachée désactivée</string>
-    <string name="lab_factory_internal_test">Analyse des modes Sport et tests</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_confirm">Oui</string>
+    <string name="btn_continue">Non</string>
+    <string name="running_short_track_desc">You have just moved %d meters. Are you sure to cancel it?</string>
+    <string name="running_no_track_desc">"You haven't moved a bit. Are you sure to cancel it?"</string>
+    <string name="running_set_pace_desc">Mi band will vibrate if your pace is slower than setting</string>
     <string name="sport_running_helper_test">Lancer des tests</string>
     <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
+    <string name="lab_factory_internal_test">运动模式分析测试</string>
+    <string name="debug_host_label">添加测试主机地址：</string>
+    <string name="host_can_not_be_empty">主机地址不能为空</string>
+    <string name="host_change_error">切换主机地址错误</string>
+    <string name="host_change_success">切换主机地址成功</string>
 </resources>
