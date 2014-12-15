@@ -742,7 +742,7 @@ Du lundi au dimanche, 8:00 - 18:00"</string>
     <string name="start_use">"Début d'utilisation"</string>
     <string name="stat_sleep_achievement">Progression du sommeil</string>
     <string name="stat_step_active_total">Total des événements</string>
-    <string name="stat_steps">nombre de mesures</string>
+    <string name="stat_steps">Nombre de mesures</string>
     <string name="stat_steps_achievement">Progression des pas</string>
     <string name="stat_steps_active_time">"Durée de l'activité"</string>
     <string name="stat_steps_consecutive_active">"L'activité maxinale"</string>
@@ -754,14 +754,14 @@ Du lundi au dimanche, 8:00 - 18:00"</string>
     <string name="btn_delete">Supprimer</string>
     <string name="btn_confirm">Oui</string>
     <string name="btn_continue">Non</string>
-    <string name="running_short_track_desc">You have just moved %d meters. Are you sure to cancel it?</string>
-    <string name="running_no_track_desc">"You haven't moved a bit. Are you sure to cancel it?"</string>
-    <string name="running_set_pace_desc">Mi band will vibrate if your pace is slower than setting</string>
+    <string name="running_short_track_desc">"Vous venez d'emménager %d mètres. Êtes-vous sûr de l'annuler ?"</string>
+    <string name="running_no_track_desc">"Vous n'avez pas un peu déplacé. Êtes-vous sûr de l'annuler ?"</string>
+    <string name="running_set_pace_desc">Mi-Band se met à vibrer si votre rythme est plus lent que les paramètres</string>
     <string name="sport_running_helper_test">Lancer des tests</string>
     <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
-    <string name="lab_factory_internal_test">运动模式分析测试</string>
-    <string name="debug_host_label">添加测试主机地址：</string>
-    <string name="host_can_not_be_empty">主机地址不能为空</string>
-    <string name="host_change_error">切换主机地址错误</string>
-    <string name="host_change_success">切换主机地址成功</string>
+    <string name="lab_factory_internal_test">Analyse des habitudes de mouvement</string>
+    <string name="debug_host_label">Ajouter une adresse d\'hôte：</string>
+    <string name="host_can_not_be_empty">Adresse de l\'hôte ne peut pas être vide</string>
+    <string name="host_change_error">Commutation des erreurs d\'adresse hôte</string>
+    <string name="host_change_success">Changer l\'adresse de l\'hôte a réussi</string>
 </resources>
