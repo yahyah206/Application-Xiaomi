@@ -520,7 +520,7 @@ puis appuyez sur suivant pour compléter la synchronisation."</string>
     <string name="weather_description_fog">Brouillard,</string>
     <string name="weather_description_haze">Brume,</string>
     <string name="fw_low_battery_title">Veuillez recharger le Mi-Band pendant la mise à jour.</string>
-    <string name="fw_low_battery_tips">La batterie du Mi-Band est supérieure à 10% avant de pouvoir faire la mise à jour.</string>
+    <string name="fw_low_battery_tips">La batterie du Mi-Band doit être supérieure à 10% afin d'effectuer la mise à jour</string>
     <string name="fw_low_battery_view_help">Aide</string>
     <string name="in">En </string>
     <string name="main_ui_share_tips">"Activité pendant %1$s%2$s aujourd'hui
