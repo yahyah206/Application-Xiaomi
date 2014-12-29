@@ -167,7 +167,7 @@
     <string name="bluetooth_add">Ajouter Bluetooth</string>
     <string name="barcode_add">Ajouter un code QR</string>
     <string name="manual_add">Ajouter manuellement</string>
-    <string name="my_camera_description">Mon appareil photo</string>
+    <string name="my_camera_description">Ma caméra</string>
     <string name="txtUID">Numéro de série</string>
     <string name="txtName">Nom</string>
     <string name="txtLocation">Description</string>
@@ -175,8 +175,8 @@
     <string name="title_add_device">Ajouter caméra</string>
     <string name="title_modify_device">Caméra de changement</string>
     <string name="tips_warning">Mise en garde</string>
-    <string name="tips_add_camera_ok">Caméras vidéo ajoutés avec succès.</string>
-    <string name="tips_edit_camera_ok">Appareil photo modifiée avec succès.</string>
+    <string name="tips_add_camera_ok">Caméra vidéo ajoutés avec succès.</string>
+    <string name="tips_edit_camera_ok">Caméra modifiée avec succès.</string>
     <string name="tips_add_camera_duplicated">La caméra existe déjà, veuillez saisir un autre [numéro].</string>
     <string name="tips_camera_name">Entrer un nom</string>
     <string name="tips_dev_uid">Entrer votre numéro de caméra</string>
@@ -222,14 +222,14 @@ S'il vous plaît vérifier que le réseau fonctionne correctement"</string>
     <string name="text_edit">Editer</string>
     <string name="text_cancel">Annuler</string>
     <string name="research">Rechercher</string>
-    <string name="failed_to_load_event">Failed to load video history</string>
-    <string name="event_list">Video history list</string>
-    <string name="no_event_found">No video history found!</string>
+    <string name="failed_to_load_event">Impossible de charger l\'historique vidéo</string>
+    <string name="event_list">Liste historique de la vidéo</string>
+    <string name="no_event_found">Pas historique vidéo trouvée !</string>
     <string name="event_search">Recherche historique vidéo</string>
-    <string name="endtime_must_less_than_starttime">End time cannot be more than start time!</string>
-    <string name="endtime_must_less_than_current_time">End time cant be more than current time!</string>
-    <string name="tips_play_record_timeout">Unable to load video history!</string>
-    <string name="tips_play_record_failed">Video playback failed!</string>
+    <string name="endtime_must_less_than_starttime">Heure de fin ne peut pas être plus de temps de démarrage !</string>
+    <string name="endtime_must_less_than_current_time">Heure de fin ne peux pas être plus de l\'heure !</string>
+    <string name="tips_play_record_timeout">Impossible de charger l\'historique vidéo !</string>
+    <string name="tips_play_record_failed">Echec de la lecture vidéo !</string>
     <string name="tips_play_record_end">La lecture est terminée !</string>
     <string name="tips_export_video">Exportation vidéo</string>
     <string name="video_export_finished">Exportation vidéo est terminée !</string>
@@ -278,31 +278,31 @@ ne pas éteindre ou débrancher l\'appareil ！"</string>
     <string name="hint_share_message">entrer le contenu du message (facultatif)</string>
     <string name="success_to_share_device">Caméra partagé avec succès !</string>
     <string name="failed_to_share_device">Caméra partagé échec !</string>
-    <string name="sure_to_share_to_all">"After setting your camera to public everyone will be able to view it!
-The following are prohibited using the Yi camera:
-(1) harm the country's unity, sovereignty and territorial integrity;
-(2) endangering national security, honor and interests;
-(3) to incite ethnic separatist and undermining national unity;
-(4) leaking state secrets;
-(5) slander, insult to others;
-(6) promote obscene, superstitious or violence;
-(7) provide false information;
-(8) do not broadcast radio, film and TV dramas;
-(9) TV, Movies or recordings from foreign media;
-(10) other content that are prohibited by laws and regulations.
-Please make sure you share the video content ensuring no personal privacy leak, also ensure shared content does not violate the relevant laws and regulations, otherwise all responsibility will accountable to the user!"</string>
-    <string name="success_to_add_public_device">Successfully added public camera!</string>
-    <string name="failed_to_add_public_device">Failed to add public camera!</string>
-    <string name="success_to_remove_public_device">Successfully remove public camera!</string>
-    <string name="failed_to_remove_public_device">Failed to remove public camera!</string>
-    <string name="success_to_remove_share_device">Successfully removed shared camera!</string>
-    <string name="failed_to_remove_share_device">Failed to remove shared camera!</string>
-    <string name="cant_set_share_device">Unable to share camera!</string>
-    <string name="share_user_manage">Shared user management</string>
-    <string name="no_share_user">Camera is not shared with anyone else</string>
-    <string name="cancel_share_to_friend">Cancel sharing</string>
-    <string name="first_config_title">1st time configuration</string>
-    <string name="first_config_title2">Camera WiFi configuration</string>
+    <string name="sure_to_share_to_all">"Après avoir réglé votre appareil photo à tous publics seront en mesure de le voir !
+Sont interdits d'utiliser l'appareil Yi suivante:
+(1) nuire à l'unité, la souveraineté du pays et l'intégrité territoriale;
+(2) mettre en danger la sécurité nationale, l'honneur et les intérêts;
+(3) pour inciter séparatiste ethnique et à saboter l'unité nationale;
+(4) de secrets d'Etat de fuite;
+(5) calomnie, les insultes aux autres;
+(6) promouvoir obscènes, superstitieux ou à la violence;
+(7) fournir de faux renseignements;
+(8) ne pas diffuser la radio, du cinéma et de la télévision drames;
+(9) TV, Films ou enregistrements de médias étrangers;
+(10) d'autres contenus qui sont interdites par les lois et règlements.
+Se il vous plaît assurez-vous faire part du contenu vidéo assurant aucune fuite de la vie privée, aussi assurez contenu partagé ne viole pas les lois et règlements pertinents, sinon toute responsabilité sera responsable à l'utilisateur !"</string>
+    <string name="success_to_add_public_device">Caméra publique ajouté avec succès !</string>
+    <string name="failed_to_add_public_device">Impossible d\'ajouter appareil publique !</string>
+    <string name="success_to_remove_public_device">Retirer avec succès caméra publique !</string>
+    <string name="failed_to_remove_public_device">Impossible de supprimer la caméra publique !</string>
+    <string name="success_to_remove_share_device">Caméra partagée avec succès enlevé !</string>
+    <string name="failed_to_remove_share_device">Impossible de supprimer la caméra partagée !</string>
+    <string name="cant_set_share_device">Impossible de partager la caméra!</string>
+    <string name="share_user_manage">Gestion des utilisateurs à partager</string>
+    <string name="no_share_user">Caméra n\'est pas partagée avec quelqu\'un d\'autre</string>
+    <string name="cancel_share_to_friend">Annuler partage</string>
+    <string name="first_config_title">1er configuration de temps</string>
+    <string name="first_config_title2">Camera Wi-Fi configuration</string>
     <string name="first_config_message">Please make sure the camera is powered on!</string>
     <string name="txtSdCard">Gestion des cartes SD</string>
     <string name="device_alarm_setting">Paramètres alarme</string>
@@ -322,21 +322,21 @@ Please make sure you share the video content ensuring no personal privacy leak, 
     <string name="sdcard_state_normal">Normal</string>
     <string name="sdcard_state_error">Erreur</string>
     <string name="data_load_failed">Echec</string>
-    <string name="sure_to_format_sdcard">Formatting SD card will remove all video data, are you sure you want to continue?</string>
-    <string name="reboot_message_send_success">Camera is rebooting to apply update. Please open the player UI and wait for reconnection</string>
-    <string name="reboot_message_send_fail">Failed to reboot the camera!</string>
+    <string name="sure_to_format_sdcard">Formatage de la carte SD supprimera toutes les données vidéo, êtes-vous sûr de vouloir continuer ?</string>
+    <string name="reboot_message_send_success">Caméra redémarre pour appliquer la mise à jour. S\'il vous plaît ouvrir l\'interface et attendre pour la reconnexion</string>
+    <string name="reboot_message_send_fail">Impossible de redémarrer la caméra !</string>
     <string name="format_success">Formatage avec succès !</string>
     <string name="setting_alarm_history">Historique alarme</string>
     <string name="alarm_whole_day">Toute la journée</string>
     <string name="cant_share_public_device_other">Camera has been set to public, you dont need to add friends!</string>
     <string name="cant_set_shared_device_to_public">Camera has been shared with friends, please cancel before setting publicly</string>
     <string name="account_settting">Paramètres du compte</string>
-    <string name="sns_bind">Bind using SMS</string>
+    <string name="sns_bind">Lier l\'aide de SMS</string>
     <string name="camera_init_settting">Configuration de la caméra pour la première fois</string>
     <string name="camera_upgrade">Mise à jour de l\'appareil photo</string>
     <string name="version_update">Version améliorée</string>
     <string name="user_feedback">Réaction</string>
-    <string name="app_recommend">Applications Recommandé</string>
+    <string name="app_recommend">Applications recommandé</string>
     <string name="app_introduce">Page d\'accueil</string>
     <string name="about">À propos </string>
     <string name="app_upgrade">La nouvelle version est détectée</string>
@@ -349,15 +349,15 @@ Please make sure you share the video content ensuring no personal privacy leak, 
     <string name="company_telephone">Tél：400-920-6788</string>
     <string name="company_copyright">Ants Technology Co., LTD</string>
     <string name="company_copyright_english">Copyright 2014, ants Technology Co., LTD All Rights Reserved.</string>
-    <string name="app_recommend_to_user">Recommend to friends</string>
-    <string name="camera_not_found">Camera was not found, please try again!</string>
-    <string name="signal_strength">Signal strength:</string>
-    <string name="security_options">Security options:</string>
-    <string name="show_password">Show password</string>
-    <string name="ap_wifi_settting">WiFi camera settings</string>
-    <string name="tips_wifi_connecting">Connecting...</string>
-    <string name="tips_wifi_connected">Connected</string>
-    <string name="tips_wifi_disconnect">Disconnected</string>
+    <string name="app_recommend_to_user">Recommander à des amis</string>
+    <string name="camera_not_found">Caméra n\'a pas été trouvé, s\'il vous plaît essayer à nouveau !</string>
+    <string name="signal_strength">Force du signal:</string>
+    <string name="security_options">Options de sécurité:</string>
+    <string name="show_password">Afficher le mot de passe</string>
+    <string name="ap_wifi_settting">Réglages de l\'appareil Wi-Fi</string>
+    <string name="tips_wifi_connecting">Connexion...</string>
+    <string name="tips_wifi_connected">Connecté</string>
+    <string name="tips_wifi_disconnect">Déconnexion</string>
     <string name="set_wifi_success">Camera WiFi configuration successful</string>
     <string name="set_wifi_fail">Camera connection failed, please try restarting the camera</string>
     <string name="please_select_my_ap_first">"Please connect phone to camera using WiFi
@@ -426,7 +426,7 @@ please check the camera is powered on and try again!"</string>
 2. If no, please cut off power and wait for reboot until the LED turns orange color and in long time bright status"</string>
     <string name="camera_config_check_message">Please confirm the camera LED has turned orange for a period of time</string>
     <string name="camera_no">Camera number:</string>
-    <string name="camera_wifi_next_config">Next step</string>
+    <string name="camera_wifi_next_config">Prochaine étape</string>
     <string name="please_select_wifi">Select WiFi network</string>
     <string name="please_confirm_password_is_right">Tip: Please ensure that the password is correct</string>
     <string name="camera_finish_wifi_setting_title">Camera is configured to use WiFi</string>
@@ -640,7 +640,7 @@ Download size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Update to the latest version %1$s
 Incremental update: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Storage is currently unavailable</string>
-    <string name="xiaomi_bytes_unit">%1$sO</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKo</string>
-    <string name="xiaomi_megabytes_unit">%1$sMo</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
 </resources>
