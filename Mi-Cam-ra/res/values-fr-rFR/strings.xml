@@ -212,24 +212,24 @@
     <string name="tips_no_sdcard">Carte SD n\'est pas installé sur votre téléphone.</string>
     <string name="failed_to_connecting">"Échec de connexion appareil photo
 S'il vous plaît vérifier que le réseau fonctionne correctement"</string>
-    <string name="video_is_loading_wait_record">请等待视频加载完成后,再开始录像!</string>
-    <string name="video_is_loading_please_wait">请先等待视频加载完成!</string>
-    <string name="video_is_loading_wait_cut">请等待视频加载完成后,再开始剪切!</string>
-    <string name="camere_offline_view_history">设备不在线，是否查看历史视频？</string>
+    <string name="video_is_loading_wait_record">Video is being saved, please wait before viewing</string>
+    <string name="video_is_loading_please_wait">Video is loading, please wait!</string>
+    <string name="video_is_loading_wait_cut">Please wait while the video is being edited!</string>
+    <string name="camere_offline_view_history">Camera is not online, view video history?</string>
     <string name="failed_to_view_image">Vous ne pouvez pas voir l\'image !</string>
     <string name="text_photo_view">Voir photo</string>
     <string name="no_photo">Aucune photo</string>
     <string name="text_edit">Editer</string>
     <string name="text_cancel">Annuler</string>
     <string name="research">Rechercher</string>
-    <string name="failed_to_load_event">获取历史视频失败</string>
-    <string name="event_list">历史视频列表</string>
-    <string name="no_event_found">该时间段内没有历史视频！</string>
+    <string name="failed_to_load_event">Failed to load video history</string>
+    <string name="event_list">Video history list</string>
+    <string name="no_event_found">No video history found!</string>
     <string name="event_search">Recherche historique vidéo</string>
-    <string name="endtime_must_less_than_starttime">结束时间不能大于开始时间!</string>
-    <string name="endtime_must_less_than_current_time">结束时间不能超过当前时间!</string>
-    <string name="tips_play_record_timeout">无法获取历史视频!</string>
-    <string name="tips_play_record_failed">播放历史视频失败!</string>
+    <string name="endtime_must_less_than_starttime">End time cannot be more than start time!</string>
+    <string name="endtime_must_less_than_current_time">End time cant be more than current time!</string>
+    <string name="tips_play_record_timeout">Unable to load video history!</string>
+    <string name="tips_play_record_failed">Video playback failed!</string>
     <string name="tips_play_record_end">La lecture est terminée !</string>
     <string name="tips_export_video">Exportation vidéo</string>
     <string name="video_export_finished">Exportation vidéo est terminée !</string>
@@ -278,32 +278,32 @@ ne pas éteindre ou débrancher l\'appareil ！"</string>
     <string name="hint_share_message">entrer le contenu du message (facultatif)</string>
     <string name="success_to_share_device">Caméra partagé avec succès !</string>
     <string name="failed_to_share_device">Caméra partagé échec !</string>
-    <string name="sure_to_share_to_all">"La caméra en public, tout le monde sera en mesure de regarder vos caméras !
-Interdisant la diffusion des programmes suivants à travers la petite caméra：
-(一) 危害国家的统一、主权和领土完整的；
-(二) 危害国家的安全、荣誉和利益的；
-(三) 煽动民族分裂、破坏民族团结的；
-(四) 泄漏国家秘密的；
-(五) 诽谤、侮辱他人的；
-(六) 宣扬淫秽、迷信或者渲染暴力的；
-(七) 虚假的信息；
-(八) 不列入广播电影电视类节目专用目录的影视剧类节目；
-(九) 从网络或境外媒体上收录下来的境外节目；
-(十) 法律、法规规定禁止的其它内容。
-请确认您分享的视频内容无个人隐私泄漏，并保证分享内容不触犯相关法律法规，否则所有责任都将由用户个人承担！"</string>
-    <string name="success_to_add_public_device">设置公共摄像机成功!</string>
-    <string name="failed_to_add_public_device">设置公共摄像机失败!</string>
-    <string name="success_to_remove_public_device">取消公共摄像机成功!</string>
-    <string name="failed_to_remove_public_device">取消公共摄像机失败!</string>
-    <string name="success_to_remove_share_device">取消共享摄像机成功!</string>
-    <string name="failed_to_remove_share_device">取消共享摄像机失败!</string>
-    <string name="cant_set_share_device">无法设置他人共享的摄像机!</string>
-    <string name="share_user_manage">共享用户管理</string>
-    <string name="no_share_user">该设备没有共享给其他用户</string>
-    <string name="cancel_share_to_friend">取消共享</string>
-    <string name="first_config_title">首次配置</string>
-    <string name="first_config_title2">摄像机WiFi配置</string>
-    <string name="first_config_message">请确认摄像机处于橙灯常亮状态！</string>
+    <string name="sure_to_share_to_all">"After setting your camera to public everyone will be able to view it!
+The following are prohibited using the Yi camera:
+(1) harm the country's unity, sovereignty and territorial integrity;
+(2) endangering national security, honor and interests;
+(3) to incite ethnic separatist and undermining national unity;
+(4) leaking state secrets;
+(5) slander, insult to others;
+(6) promote obscene, superstitious or violence;
+(7) provide false information;
+(8) do not broadcast radio, film and TV dramas;
+(9) TV, Movies or recordings from foreign media;
+(10) other content that are prohibited by laws and regulations.
+Please make sure you share the video content ensuring no personal privacy leak, also ensure shared content does not violate the relevant laws and regulations, otherwise all responsibility will accountable to the user!"</string>
+    <string name="success_to_add_public_device">Successfully added public camera!</string>
+    <string name="failed_to_add_public_device">Failed to add public camera!</string>
+    <string name="success_to_remove_public_device">Successfully remove public camera!</string>
+    <string name="failed_to_remove_public_device">Failed to remove public camera!</string>
+    <string name="success_to_remove_share_device">Successfully removed shared camera!</string>
+    <string name="failed_to_remove_share_device">Failed to remove shared camera!</string>
+    <string name="cant_set_share_device">Unable to share camera!</string>
+    <string name="share_user_manage">Shared user management</string>
+    <string name="no_share_user">Camera is not shared with anyone else</string>
+    <string name="cancel_share_to_friend">Cancel sharing</string>
+    <string name="first_config_title">1st time configuration</string>
+    <string name="first_config_title2">Camera WiFi configuration</string>
+    <string name="first_config_message">Please make sure the camera is powered on!</string>
     <string name="txtSdCard">Gestion des cartes SD</string>
     <string name="device_alarm_setting">Paramètres alarme</string>
     <string name="camera_reboot">Redémarrage de la caméra</string>
@@ -317,21 +317,21 @@ Interdisant la diffusion des programmes suivants à travers la petite caméra：
     <string name="sdcard_state">Carte SD</string>
     <string name="sdcard_total_size">Espace de stockage</string>
     <string name="sdcard_free_size">Espace disponible</string>
-    <string name="data_loading">Monter...</string>
-    <string name="sdcard_state_nofound">Aucun</string>
+    <string name="data_loading">Chargement...</string>
+    <string name="sdcard_state_nofound">Aucune carte SD</string>
     <string name="sdcard_state_normal">Normal</string>
     <string name="sdcard_state_error">Erreur</string>
     <string name="data_load_failed">Echec</string>
-    <string name="sure_to_format_sdcard">格式化会删除SD卡中的所有视频，确定格式化SD卡吗？</string>
-    <string name="reboot_message_send_success">摄像机正在重启升级，请切换到播放界面等待重新连接！</string>
-    <string name="reboot_message_send_fail">摄像机重启命令发送失败！</string>
+    <string name="sure_to_format_sdcard">Formatting SD card will remove all video data, are you sure you want to continue?</string>
+    <string name="reboot_message_send_success">Camera is rebooting to apply update. Please open the player UI and wait for reconnection</string>
+    <string name="reboot_message_send_fail">Failed to reboot the camera!</string>
     <string name="format_success">Formatage avec succès !</string>
-    <string name="setting_alarm_history">历史报警列表</string>
-    <string name="alarm_whole_day">全天</string>
-    <string name="cant_share_public_device_other">您的摄像机已设为公共,无需再共享给好友!</string>
-    <string name="cant_set_shared_device_to_public">您的摄像机已共享给好友,请取消后再设为公共!</string>
+    <string name="setting_alarm_history">Historique alarme</string>
+    <string name="alarm_whole_day">Toute la journée</string>
+    <string name="cant_share_public_device_other">Camera has been set to public, you dont need to add friends!</string>
+    <string name="cant_set_shared_device_to_public">Camera has been shared with friends, please cancel before setting publicly</string>
     <string name="account_settting">Paramètres du compte</string>
-    <string name="sns_bind">社区绑定</string>
+    <string name="sns_bind">Bind using SMS</string>
     <string name="camera_init_settting">Configuration de la caméra pour la première fois</string>
     <string name="camera_upgrade">Mise à jour de l\'appareil photo</string>
     <string name="version_update">Version améliorée</string>
@@ -341,107 +341,107 @@ Interdisant la diffusion des programmes suivants à travers la petite caméra：
     <string name="about">À propos </string>
     <string name="app_upgrade">La nouvelle version est détectée</string>
     <string name="logout">Déconnexion</string>
-    <string name="sure_to_logout">Connexion ok ?</string>
-    <string name="app_slogan">随身千里眼，千里亦安心</string>
-    <string name="app_description">“移动、视频、互联新感觉”是云蚁科技的产品设计理念－即为移动互联网时代提供最便捷的使用，最智能化的云端视频产品和服务。</string>
-    <string name="company_website">官网：http://www.360ants.com</string>
-    <string name="company_market">商城：http://ants.tmall.com</string>
-    <string name="company_telephone">电话：400-920-6788</string>
-    <string name="company_copyright">云蚁科技版权所有</string>
+    <string name="sure_to_logout">Etes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="app_slogan">Take Ants with you whereever you go</string>
+    <string name="app_description">Cloud based intelligent camera with video and mobile functionality. Convenient and easy to use. Keep in touch with friends and loved ones.</string>
+    <string name="company_website">Site：http://www.360ants.com</string>
+    <string name="company_market">Boutique：http://ants.tmall.com</string>
+    <string name="company_telephone">Tél：400-920-6788</string>
+    <string name="company_copyright">Ants Technology Co., LTD</string>
     <string name="company_copyright_english">Copyright 2014, ants Technology Co., LTD All Rights Reserved.</string>
-    <string name="app_recommend_to_user">推荐给好友</string>
-    <string name="camera_not_found">摄像机未找到,请重试！</string>
-    <string name="signal_strength">信号强度:</string>
-    <string name="security_options">安全选项:</string>
-    <string name="show_password">显示密码</string>
-    <string name="ap_wifi_settting">摄像机WiFi设置</string>
-    <string name="tips_wifi_connecting">连接中…</string>
-    <string name="tips_wifi_connected">已连接</string>
-    <string name="tips_wifi_disconnect">未连接</string>
-    <string name="set_wifi_success">摄像机WiFi配置成功</string>
-    <string name="set_wifi_fail">摄像机连接失败,请重启摄像机重试!</string>
-    <string name="please_select_my_ap_first">"请先连接手机至摄像机的WiFi!
-(WiFi名称：MyAP)"</string>
-    <string name="fail_to_connect_camera">连接摄像机失败！</string>
-    <string name="camera_cant_found_wifi">摄像机无法搜索到WiFi,请重试！</string>
-    <string name="wifi_name">WiFi名称</string>
-    <string name="sure_to_delete_video">确认删除该视频？</string>
-    <string name="hint_video_unpublish">该视频未发布,无法分享!</string>
-    <string name="text_upload_finished">上传已完成</string>
-    <string name="text_uploading">正在上传:</string>
-    <string name="failed_to_upload">抱歉，由于网络原因上传失败,请<u>重新上传</u></string>
-    <string name="upload_not_in_wifi_env">当前使用的不是Wifi网络,确定上传?</string>
-    <string name="video_edit">视频编辑</string>
-    <string name="hint_upload_to_youku_title">视频标题</string>
-    <string name="hint_upload_to_youku_description">视频描述(选填)</string>
-    <string name="upload_to_youku">视频上传</string>
-    <string name="upload_title_cant_be_empty">请输入视频名称!</string>
-    <string name="video_exits">视频已存在</string>
-    <string name="cancel_bind">取消绑定</string>
-    <string name="bind">绑定</string>
-    <string name="unbind_success">取消绑定成功!</string>
-    <string name="bind_success">绑定成功!</string>
-    <string name="bind_failed">绑定失败!</string>
-    <string name="sure_to_unbind">确定取消绑定？</string>
-    <string name="new_alarm_setting">新增报警时间段</string>
-    <string name="type_workday">工作日</string>
-    <string name="type_weekends">周末</string>
-    <string name="add_alarm_setting">新增报警时间段</string>
-    <string name="modify_alarm_setting">修改报警时间段</string>
-    <string name="camera_alarm_type">时间类型</string>
-    <string name="camera_alarm_starttime">开始时间</string>
-    <string name="camera_alarm_endtime">结束时间</string>
-    <string name="please_select_camera_alarm_type">请先选择时间类型!</string>
-    <string name="please_select_camera_alarm_starttime">请先选择开始时间!</string>
-    <string name="please_select_camera_alarm_endtime">请先选择结束时间!</string>
-    <string name="endtime_cant_less_than_starttime">结束时间不能小于开始时间!</string>
-    <string name="starttime_cant_equals_endtime">开始时间与结束时间不能相等!</string>
-    <string name="sure_to_delete_alarm_setting">确定删除该时间段设置?</string>
-    <string name="fail_to_get_newest_version">获取最新版本信息失败!</string>
-    <string name="current_is_the_newest_version">已经是最新版本,无需升级!</string>
-    <string name="msg_default_status">请将摄像机背部二维码置于取景框内扫描</string>
-    <string name="msg_bulk_mode_scanned">批量扫描：找到条码，已保存</string>
-    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
-    <string name="sure_to_reboot">确定重启摄像机?</string>
-    <string name="camera_wifi_start_config">commencer à configurer</string>
-    <string name="camera_wifi_config_message_prompt">请确认摄像机处于橙灯长亮状态</string>
-    <string name="camera_wifi_config_message_search_wifi">正在火速查找摄像机中…</string>
-    <string name="camera_wifi_config_message_releate_device">正在关联摄像机...</string>
-    <string name="camera_wifi_config_message_connect_to_wifi">正在尽情连接摄像机中…</string>
-    <string name="camera_wifi_config_message_read_wifi_list">正在获取WiFi列表...</string>
-    <string name="camera_wifi_config_message_start_confi_camera_wifi">正在配置摄像机...</string>
-    <string name="camera_wifi_config_message_wait_finish_config">正在等待摄像机完成配置...</string>
-    <string name="camera_wifi_config_message_read_wifi_list_finished">数据读取成功，请配置摄像机WiFi</string>
-    <string name="camera_wifi_config_message_cant_connect_to_camera">"貌似有点小问题！
-请拔插电源再来一次！"</string>
-    <string name="camera_wifi_config_message_cancel_config">摄像机配置已取消,请重试</string>
-    <string name="camera_not_found_wifi">木有搜索到WiFi:XXX，请拔插电源重启设备！</string>
-    <string name="camera_wifi_config_message_failed_config">"网络不太给力，请检查以下问题后拔插电源重启设备：
-1. 路由是否已开启DHCP功能；
-2. wifi密码输入是否正确；
-3. 如果指示灯现在已变为蓝灯长亮状态，请进入“更多-关联摄像机（二维码扫描）“进行设备关联即可；
-4. wifi的加密方式是否是WEP；（暂不支持WEP加密方式）"</string>
-    <string name="my_ap_not_found">"亲，木有找到摄像机，请检查摄像机是否处于橙灯长亮状态：
-1. 如果是，请再增加摄像机界面，再次点击确定；
-2. 如果不是，请拔插电源等待设备启动至橙灯长亮状态；"</string>
-    <string name="camera_config_check_message">请确认摄像机已处于橙灯长亮状态!</string>
-    <string name="camera_no">Numéro de série:</string>
-    <string name="camera_wifi_next_config">Suivant</string>
-    <string name="please_select_wifi">Sélectionnez Wi-Fi</string>
-    <string name="please_confirm_password_is_right">小贴士: 请确保密码输入正确</string>
-    <string name="camera_finish_wifi_setting_title">摄像机正在配置WiFi</string>
-    <string name="camera_finish_wifi_setting_content">"1.请等待摄像机指示灯变成蓝灯长亮，需要1分钟左右，此时摄像机配置已成功。
-2.如有问题，请参考说明书中常见问题。"</string>
-    <string name="device_is_offline">设备不在线,不能预览!</string>
-    <string name="recommend_to_user_title">云蚁千里眼</string>
-    <string name="recommend_to_user_message">云蚁千里眼是上海云蚁科技有限公司推出的一款用于家庭看护、企业管理的高清网络摄像机。</string>
+    <string name="app_recommend_to_user">Recommend to friends</string>
+    <string name="camera_not_found">Camera was not found, please try again!</string>
+    <string name="signal_strength">Signal strength:</string>
+    <string name="security_options">Security options:</string>
+    <string name="show_password">Show password</string>
+    <string name="ap_wifi_settting">WiFi camera settings</string>
+    <string name="tips_wifi_connecting">Connecting...</string>
+    <string name="tips_wifi_connected">Connected</string>
+    <string name="tips_wifi_disconnect">Disconnected</string>
+    <string name="set_wifi_success">Camera WiFi configuration successful</string>
+    <string name="set_wifi_fail">Camera connection failed, please try restarting the camera</string>
+    <string name="please_select_my_ap_first">"Please connect phone to camera using WiFi
+(WiFi SSID: MyAP)"</string>
+    <string name="fail_to_connect_camera">Failed to connect to the camera!</string>
+    <string name="camera_cant_found_wifi">Unable to find camera using WiFi, please try again!</string>
+    <string name="wifi_name">WiFi SSID</string>
+    <string name="sure_to_delete_video">Are you sure you want to delete the video?</string>
+    <string name="hint_video_unpublish">Video is not published, unable to share!</string>
+    <string name="text_upload_finished">Upload completed</string>
+    <string name="text_uploading">Uploading:</string>
+    <string name="failed_to_upload">Network failure, upload has failed! <u>please upload again</u></string>
+    <string name="upload_not_in_wifi_env">Not currently connected to WiFi for upload, continue to upload?</string>
+    <string name="video_edit">Video editor</string>
+    <string name="hint_upload_to_youku_title">Video title</string>
+    <string name="hint_upload_to_youku_description">Video description (optional)</string>
+    <string name="upload_to_youku">Upload to Yoku</string>
+    <string name="upload_title_cant_be_empty">Please input the name of the video!</string>
+    <string name="video_exits">Video already exists</string>
+    <string name="cancel_bind">Cancel binding</string>
+    <string name="bind">Bind</string>
+    <string name="unbind_success">Successfully removed binding!</string>
+    <string name="bind_success">Successfully bound!</string>
+    <string name="bind_failed">Failed to bind!</string>
+    <string name="sure_to_unbind">Are you sure you would like to unbind?</string>
+    <string name="new_alarm_setting">New alarm time</string>
+    <string name="type_workday">Weekdays</string>
+    <string name="type_weekends">Weekends</string>
+    <string name="add_alarm_setting">Add alarm</string>
+    <string name="modify_alarm_setting">Modify alarm time</string>
+    <string name="camera_alarm_type">Alarm type</string>
+    <string name="camera_alarm_starttime">Start time</string>
+    <string name="camera_alarm_endtime">End time</string>
+    <string name="please_select_camera_alarm_type">Please select alarm type!</string>
+    <string name="please_select_camera_alarm_starttime">Please select alarm start time!</string>
+    <string name="please_select_camera_alarm_endtime">Please select alarm end time!</string>
+    <string name="endtime_cant_less_than_starttime">End time cannot be less than the start time!</string>
+    <string name="starttime_cant_equals_endtime">Start time cannot be the same as the end time!</string>
+    <string name="sure_to_delete_alarm_setting">Are you sure you want to delete this alarm setting?</string>
+    <string name="fail_to_get_newest_version">Failed to download the latest version!</string>
+    <string name="current_is_the_newest_version">You already have the latest version</string>
+    <string name="msg_default_status">Put QR code from the back of camera into your viewing frame to scan it</string>
+    <string name="msg_bulk_mode_scanned">Batch scanning: found barcode, saved.</string>
+    <string name="msg_camera_framework_bug">Unfortunately the camera has stopped working, please restart the camera!</string>
+    <string name="sure_to_reboot">Are you sure you want to restart the camera?</string>
+    <string name="camera_wifi_start_config">Open WiFi configuration</string>
+    <string name="camera_wifi_config_message_prompt">Please check the camera LED light is orange and powered on</string>
+    <string name="camera_wifi_config_message_search_wifi">Searching for camera via WiFi...</string>
+    <string name="camera_wifi_config_message_releate_device">Connecting to camera...</string>
+    <string name="camera_wifi_config_message_connect_to_wifi">Connecting to camera using WiFi...</string>
+    <string name="camera_wifi_config_message_read_wifi_list">Refreshing WiFi list...</string>
+    <string name="camera_wifi_config_message_start_confi_camera_wifi">Configuring camera...</string>
+    <string name="camera_wifi_config_message_wait_finish_config">Waiting for camera configuration to complete...</string>
+    <string name="camera_wifi_config_message_read_wifi_list_finished">Data read successful, configure the camera using WiFi</string>
+    <string name="camera_wifi_config_message_cant_connect_to_camera">"A problem has occurred!
+please check the camera is powered on and try again!"</string>
+    <string name="camera_wifi_config_message_cancel_config">Camera configuration has been canceled, please try again</string>
+    <string name="camera_not_found_wifi">Unable to find WiFi network, please power off and reboot the device</string>
+    <string name="camera_wifi_config_message_failed_config">"Network connection failed, please check the following:
+1. Check DHCP settings
+2. Check WiFi password is correct;
+3. If the light has turned blue and in long time bright status, please choose more->connect camera (scanning QR code)
+4. Encryption of WiFi is WEP; ( WEP is not currently supported)"</string>
+    <string name="my_ap_not_found">"Unable to find camera, please check if the camera LED is orange and in long time bright status
+1. If yes, pleass add camera UI again, and confirm again 
+2. If no, please cut off power and wait for reboot until the LED turns orange color and in long time bright status"</string>
+    <string name="camera_config_check_message">Please confirm the camera LED has turned orange for a period of time</string>
+    <string name="camera_no">Camera number:</string>
+    <string name="camera_wifi_next_config">Next step</string>
+    <string name="please_select_wifi">Select WiFi network</string>
+    <string name="please_confirm_password_is_right">Tip: Please ensure that the password is correct</string>
+    <string name="camera_finish_wifi_setting_title">Camera is configured to use WiFi</string>
+    <string name="camera_finish_wifi_setting_content">"1. Please wait for the camera LED light to turn blue, you may need to wait up to 1 minute. Once completed the camera setup has been successful.
+2. If you are unsure please refer to the user manual for assistance."</string>
+    <string name="device_is_offline">Camera is offline, preview unavailable!</string>
+    <string name="recommend_to_user_title">Small ants</string>
+    <string name="recommend_to_user_message">Ants was produced by Shanghai ants science and technology company, it is using for home care and enterprise management.</string>
     <string name="camera_id">Numéro de série:</string>
-    <string name="xlistview_header_hint_normal">下拉刷新</string>
-    <string name="xlistview_header_hint_ready">松开刷新数据</string>
-    <string name="xlistview_header_hint_loading">chargement...</string>
-    <string name="xlistview_header_last_time">Dernière mise à jour:</string>
-    <string name="xlistview_footer_hint_normal">voir plus</string>
-    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">Release to refresh data</string>
+    <string name="xlistview_header_hint_loading">Loading...</string>
+    <string name="xlistview_header_last_time">Last updated:</string>
+    <string name="xlistview_footer_hint_normal">View more</string>
+    <string name="xlistview_footer_hint_ready">Release to load more</string>
     <string name="setting_camera_manage">Camera Management</string>
     <string name="setting_new_camera">nouvelle caméra</string>
     <string name="setting_app_suggest">réaction</string>
@@ -591,55 +591,55 @@ Interdisant la diffusion des programmes suivants à travers la petite caméra：
     <string name="winexperience_recheck_checking_btntxt">检测中...</string>
     <string name="winexperience_rotatecircle_scoreunit">分</string>
     <string name="toast_out_of_memory">内存不够啦~~</string>
-    <string name="umeng_common_action_info_exist">正在下载中.</string>
-    <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
-    <string name="umeng_common_action_pause">暂停</string>
-    <string name="umeng_common_action_continue">继续</string>
-    <string name="umeng_common_action_cancel">取消</string>
-    <string name="umeng_common_download_notification_prefix">正在下载:</string>
-    <string name="umeng_common_start_download_notification">正在下载应用</string>
-    <string name="umeng_common_start_patch_notification">正在更新安装包</string>
-    <string name="umeng_common_network_break_alert">请连接网络后再尝试！</string>
-    <string name="umeng_common_download_failed">下载失败</string>
-    <string name="umeng_common_download_finish">下载完成，请点击安装</string>
-    <string name="umeng_common_patch_finish">更新完成，请点击安装</string>
+    <string name="umeng_common_action_info_exist">Downloading</string>
+    <string name="umeng_common_info_interrupt">Download error, please check network and try again.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_action_continue">Resume</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_start_download_notification">Downloading application</string>
+    <string name="umeng_common_start_patch_notification">Updating installed application</string>
+    <string name="umeng_common_network_break_alert">Please connect to the Internet and try again!</string>
+    <string name="umeng_common_download_failed">Download failed</string>
+    <string name="umeng_common_download_finish">Download complete, please install</string>
+    <string name="umeng_common_patch_finish">Update complete, please install</string>
     <string name="umeng_common_icon">icon</string>
-    <string name="UMBreak_Network">未联网</string>
-    <string name="UMUpdateTitle">发现新版本</string>
-    <string name="UMNewVersion">最新版本:</string>
-    <string name="UMUpdateContent">更新内容</string>
-    <string name="UMUpdateSize">仅需要下载:</string>
-    <string name="UMTargetSize">新版本大小:</string>
-    <string name="UMGprsCondition">（提示：非WIFI环境）</string>
-    <string name="UMUpdateNow">立即更新</string>
-    <string name="UMAppUpdate">应用更新</string>
-    <string name="UMNotNow">以后再说</string>
-    <string name="UMIgnore">忽略该版</string>
-    <string name="UMToast_IsUpdating">正在更新中....</string>
-    <string name="UMDialog_InstallAPK">最新版本已下载，是否安装？</string>
-    <string name="umeng_xp_size">大小</string>
-    <string name="umeng_xp_action_open">打开</string>
-    <string name="umeng_xp_action_browse">浏览</string>
-    <string name="umeng_xp_action_download">下载</string>
+    <string name="UMBreak_Network">No network connection</string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="UMNewVersion">Latest version:</string>
+    <string name="UMUpdateContent">Update details</string>
+    <string name="UMUpdateSize">Total to download:</string>
+    <string name="UMTargetSize">New version size:</string>
+    <string name="UMGprsCondition">(Hint: WiFi not available)</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMAppUpdate">Apply update</string>
+    <string name="UMNotNow">Remind later</string>
+    <string name="UMIgnore">Ignore update</string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMDialog_InstallAPK">Latest version has been downloaded, install now?</string>
+    <string name="umeng_xp_size">Size</string>
+    <string name="umeng_xp_action_open">Open</string>
+    <string name="umeng_xp_action_browse">Browse</string>
+    <string name="umeng_xp_action_download">Download</string>
     <string name="umeng_xp_action_callphone" />
-    <string name="umeng_xp_more">更多精彩推荐</string>
-    <string name="umeng_xp_back_to_top">回到顶部</string>
-    <string name="umeng_xp_back">返回</string>
-    <string name="umeng_xp_dowloadOrNot">是否下载推荐应用？</string>
-    <string name="umeng_xp_title_info">精彩推荐</string>
-    <string name="umeng_xp_dowload_dialog_dinfo">马上下载</string>
-    <string name="umeng_xp_dowload_dialog_cinfo">马上拨打</string>
-    <string name="umeng_xp_failed_loading">加载失败...</string>
-    <string name="umeng_xp_no_browser_tips">请先安装浏览器..</string>
-    <string name="umeng_xp_tip_download_pre">开始下载</string>
-    <string name="umeng_xp_network_break_alert">请连接网络后再尝试！</string>
-    <string name="umeng_xp_info_banner_deprecated">当前SDK版本不支持Banner样式,请联系客服.</string>
-    <string name="xiaomi_update_dialog_title">%1$s新版本</string>
-    <string name="xiaomi_update_dialog_message">"推荐您立即升级到最新的%1$s版
-大小: %2$s"</string>
-    <string name="xiaomi_update_dialog_message_diff">"推荐您立即升级到最新的%1$s版
-增量更新只需下载: %2$s"</string>
-    <string name="xiaomi_external_storage_unavailable">存储分区不可用，请检查SD卡</string>
+    <string name="umeng_xp_more">More</string>
+    <string name="umeng_xp_back_to_top">Back to top</string>
+    <string name="umeng_xp_back">Back</string>
+    <string name="umeng_xp_dowloadOrNot">Do you want to download?</string>
+    <string name="umeng_xp_title_info">Recommended</string>
+    <string name="umeng_xp_dowload_dialog_dinfo">Download now</string>
+    <string name="umeng_xp_dowload_dialog_cinfo">Dialing now</string>
+    <string name="umeng_xp_failed_loading">Failed to load...</string>
+    <string name="umeng_xp_no_browser_tips">Please install the browser..</string>
+    <string name="umeng_xp_tip_download_pre">Start download</string>
+    <string name="umeng_xp_network_break_alert">Please connect to the Internet and try again!</string>
+    <string name="umeng_xp_info_banner_deprecated">The current SDK version does not support the banner style, please contact customer services.</string>
+    <string name="xiaomi_update_dialog_title">%1$s new version</string>
+    <string name="xiaomi_update_dialog_message">"It is recommended to update to %1$s version
+Download size: %2$s"</string>
+    <string name="xiaomi_update_dialog_message_diff">"Update to the latest version %1$s
+Incremental update: %2$s"</string>
+    <string name="xiaomi_external_storage_unavailable">Storage is currently unavailable</string>
     <string name="xiaomi_bytes_unit">%1$sO</string>
     <string name="xiaomi_kilobytes_unit">%1$sKo</string>
     <string name="xiaomi_megabytes_unit">%1$sMo</string>
