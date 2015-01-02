@@ -35,9 +35,9 @@ Accord: %2$s"</string>
     <string name="date_from_to_short">%1$s-%2$s</string>
     <string name="date_month_day">dd MMMM</string>
     <string name="date_year_month_day">dd MMMM, yyyy</string>
-    <string name="date_month_day_short">%1$d/%2$d</string>
-    <string name="date_month_day_week">%1$s %2$s</string>
-    <string name="date_month_day_week_short">%1$d.%2$d %3$s</string>
+    <string name="date_month_day_short">%2$d/%1$d</string>
+    <string name="date_month_day_week">%2$s %1$s</string>
+    <string name="date_month_day_week_short">%2$d.%1$d %3$s</string>
     <string name="date_month">MMMM</string>
     <string name="date_year_month">MMMM, yyyy</string>
     <string name="network_error">La connexion au réseau a échoué, veuillez vérifier votre connexion.</string>
@@ -451,8 +451,7 @@ Il faut garder le rythme"</string>
     <string name="bluetooth">Bluetooth:</string>
     <string name="setting_about_fw">Version firmware:</string>
     <string name="setting_about_app">"Version App:
-Traduction par Fays et Boleofr
-Notifications par mksaint13"</string>
+Traduction par Fays et Boleofr"</string>
     <string name="stop">Fin</string>
     <string name="start">Début</string>
     <string name="no_wear_bracelet">"Vous n'avez pas porter votre Mi-Band la nuit dernière"</string>
@@ -492,7 +491,6 @@ Notifications par mksaint13"</string>
     <string name="share_to_content_sleep">Mes infos sur mon sommeil</string>
     <string name="share_to_content_step">"Mes infos d'activité"</string>
     <string name="share_to_topic">\#Mi-Band#</string>
-    <string name="share_to_topic_for_event">\#Mi-Band 10 000 pas par jour#</string>
     <string name="month" />
     <string name="year" />
     <string name="find_bracelet_warning">"L'autonomie sera vite réduite en recherchant votre Mi-Band.."</string>
@@ -520,7 +518,7 @@ puis appuyez sur suivant pour compléter la synchronisation."</string>
     <string name="weather_description_fog">Brouillard,</string>
     <string name="weather_description_haze">Brume,</string>
     <string name="fw_low_battery_title">Veuillez recharger le Mi-Band pendant la mise à jour.</string>
-    <string name="fw_low_battery_tips">La batterie du Mi-Band doit être supérieure à 10% afin d'effectuer la mise à jour</string>
+    <string name="fw_low_battery_tips">La batterie du Mi-Band doit être supérieure à 10% afin d\'effectuer la mise à jour</string>
     <string name="fw_low_battery_view_help">Aide</string>
     <string name="in">En </string>
     <string name="main_ui_share_tips">"Activité pendant %1$s%2$s aujourd'hui
@@ -530,7 +528,7 @@ puis appuyez sur suivant pour compléter la synchronisation."</string>
 Couché à %3$s, réveillé à %4$s"</string>
     <string name="awake_format">, réveillé %1$s fois.</string>
     <string name="awake_format_1">, réveillé une fois.</string>
-    <string name="discard">Annuler</string>
+    <string name="discard">Retirer</string>
     <string name="discard_alarm_change">Annuler les changements ?</string>
     <string name="notify_status_motor" />
     <string name="notify_status_motor_notify">Vous recherchez le Mi-Band...</string>
@@ -548,7 +546,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="body">Nuque</string>
     <string name="wrong_system_time">Votre horloge est mal réglée. Cela effectue le Mi-Band..</string>
     <string name="restart_bluetooth_tips">"S'il vous plaît redémarrez le Bluetooth."</string>
-    <string name="agree">"D'accord"</string>
+    <string name="agree">Accepter</string>
     <string name="user_agreement_prefix">"Pour utiliser ce produit, vous devez accepter notre
 
 "</string>
@@ -565,15 +563,40 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="bind_mi_band_about"><Data>&lt;a href=http://www.mi.com>View Mi Bind Website&lt;/a></Data></string>
     <string name="read_useragreement">"J'ai lu l'accord de l'utilisateur et politique de confidentialité"</string>
     <string name="search_weight_scale">Recherche du poids</string>
-    <string name="search_weight_scale_info">S\'il vous plaît rester près de la balance</string>
+    <string name="search_weight_scale_info">"S'il vous plaît rester près de la balance"</string>
     <string name="weight_device_list">Balances à proximité</string>
-    <string name="set_unit">"Définir l'unité</string>
-    <string name="weight_unbinded">Dissocier la  balance</string>
+    <string name="set_unit">"Définir l'unité"</string>
+    <string name="weight_unbinded">Dissocier la balance</string>
     <string name="weight_scale">Balance</string>
     <string name="band">Mi-Band</string>
     <string name="bind_weight_scale">Associer la balance</string>
+    <string name="share_weibo_label">Weibo</string>
+    <string name="share_pengyouquan_label">Moments</string>
+    <string name="share_weixin_label">WeChat</string>
+    <string name="share_qq_label">QQ</string>
+    <string name="share_qq_zone_label">QZone</string>
+    <string name="share_miliao_label">Mi-Talk</string>
+    <string name="share_line_label">Line</string>
+    <string name="share_facebook_label">Facebook</string>
+    <string name="health_link">HealthLink</string>
+    <string name="title_health_link_service">Health Care Service</string>
+    <string name="health_care_date_limit">Période de service: année gratuite</string>
+    <string name="health_care_country_limit">Région: Chine continentale</string>
+    <string name="service_call_notice">Appelez au téléphone 24 heures, l\'accès aux services</string>
+    <string name="notice_for_users">Mi utilisateur bracelet exclusif</string>
+    <string name="health_provider_desc">Services de santé de groupe</string>
     <string name="connected_broadcast">Flux de diffusion</string>
-    <string name="connected_broadcast_tips">Utilisé pour tester l\'utilisation du contrôle d\'accès</string>
+    <string name="connected_broadcast_tips">Assurez-bracelets peuvent être trouvés avec d\'autres appareils</string>
+    <string name="connected_broadcast_disconnect_tips">Connecter le bracelet, puis réglez</string>
+    <string name="donot_have_band">Do not have a band?</string>
+    <string name="sensor_hub_tip">"Podomètre du téléphone affiché par coprocesseur interne du téléphone
+ Données de mouvement (Capteur Hub)
+ 绑定手环后，此数据仅作为参考，不会保存到云端"</string>
+    <string name="incomingcall_info_1">Cette notification à besoin que l\'app fonctionne en arrière-plan</string>
+    <string name="incomingcall_info_2">"Verrouiller l'application Mi-Band et 
+ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</string>
+    <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Band à la liste blanche du gestionnaire de 3ème partie si elle existe</string>
+    <string name="incoming_call_notify_closed">Appel entrant notification fermé</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
@@ -702,8 +725,10 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="sport_running_set_pace">Réglez le rythme</string>
     <string name="sport_running_lable_miles_fastest">km plus rapide</string>
     <string name="sport_running_lable_km_slowest">km plus lent</string>
+    <string name="sport_running_share">Partager</string>
+    <string name="sport_running_watermark">Filigrane</string>
     <string name="sport_ranking_desc_poor">%s des utilisateurs peuvent vous battre, allez !</string>
-    <string name="sport_ranking_desc_normal" formatted="false">Vous avez battu &lt;b>%s%&lt;/b> Mi-Band %s utilisateurs.</string>
+    <string name="sport_ranking_desc_normal" formatted="false">Vous avez battu &lt;b>%s&lt;/b> Mi-Band %s utilisateurs.</string>
     <string name="sport_ranking_desc_great">"WOW, vous êtes imbattable aujourd'hui!"</string>
     <string name="sport_new_record_ropeskipping">Nouveau record</string>
     <string name="percent_mark">%</string>
@@ -711,13 +736,39 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="buy_bracelet_desc">Acheter un Mi-Band.</string>
     <string name="bracelet_store_desc">Magasin Mi-Band</string>
     <string name="title_activity_open">Partner Bind Page</string>
-    <string name="lab_factory_cancel_deauthorize">Délier</string>
-    <string name="state_deauthorization_success">Retirer l\'autorisation avec succèss !</string>
-    <string name="state_deauthorization_doing">Suspendre l\'autorisation ...</string>
-    <string name="state_deauthorization_error">Echec de la suspension de l\'autorisation !</string>
+    <string name="state_deauthorization_success">"Retirer l'autorisation avec succèss !"</string>
+    <string name="state_deauthorization_doing">"Suspendre l'autorisation ..."</string>
+    <string name="state_deauthorization_error">"Echec de la suspension de l'autorisation !"</string>
     <string name="state_authorization_error">"Echec de l'autorisation !"</string>
     <string name="state_authorization_doing">Autoriser ...</string>
     <string name="state_authorization_success">Autorisé avec succès !</string>
+    <string name="share_image_preparing">Préparation pour le partage</string>
+    <string name="enable_hidden_feature">Activer la fonction cachée</string>
+    <string name="disable_hidden_feature">Désactiver la fonction cachée</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_confirm">Oui</string>
+    <string name="btn_continue">Non</string>
+    <string name="running_short_track_desc">"Vous venez d'avancer de %d mètres. Êtes-vous sûr de l'annuler ?"</string>
+    <string name="running_no_track_desc">"Vous ne vous êtes pas assez déplacé. Êtes-vous sûr de l'annuler ?"</string>
+    <string name="running_set_pace_desc">Mi-Band se met à vibrer si votre rythme est plus lent que les paramètres</string>
+    <string name="running_gps_poor_signal">Signal GPS pauvres. S\'il vous plaît déplacez vous quelque part sans abri.</string>
+    <string name="sport_running_cal_with_unit">Brûlées(cal)</string>
+    <string name="sport_running_cal_desc">Brûlées</string>
+    <string name="sport_running_cal_burnt">%d cal</string>
+    <string name="sport_running_step_frequency">Fréquence (pas/m)</string>
+    <string name="sport_running_marathon_cost_time">(Tout un marathon doit %s dans ce rythme)</string>
+    <string name="action_pop_service">Services</string>
+    <string name="sport_running_label_hint">Entrées titre</string>
+    <string name="sport_running_sport_state_sr_tips">Pause auto, reprendre une fois démarré</string>
+    <string name="sport_running_auto_pause">Détection de pause automatique</string>
+    <string name="sport_running_helper_test">Lancer des tests</string>
+    <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
+    <string name="lab_factory_internal_test">Analyse des habitudes de mouvement</string>
+    <string name="debug_host_label">"Ajouter une adresse d'hôte："</string>
+    <string name="host_can_not_be_empty">"L'adresse serveur ne peut pas être vide"</string>
+    <string name="host_change_error">"Commutation des erreurs d'adresse serveur"</string>
+    <string name="host_change_success">"Changement de l'adresse serveur réussi"</string>
     <string name="congrats">Félicitations</string>
     <string name="bind_qq_health_tip_init">Se connecter pour terminer la liaison QQ santé</string>
     <string name="bind_qq_health_tip_another_qq">Votre compte mobile de QQ est actuellement connecté et permet de voir les données en matière de santé</string>
@@ -748,20 +799,5 @@ Du lundi au dimanche, 8:00 - 18:00"</string>
     <string name="stat_steps_consecutive_active">"L'activité maximale"</string>
     <string name="unknown_location">Non localisé</string>
     <string name="unknown_mili">Mon</string>
-    <string name="enable_hidden_feature">Activer la fonction cachée</string>
-    <string name="disable_hidden_feature">Désactiver la fonction cachée</string>
-    <string name="btn_save">Enregistrer</string>
-    <string name="btn_delete">Supprimer</string>
-    <string name="btn_confirm">Oui</string>
-    <string name="btn_continue">Non</string>
-    <string name="running_short_track_desc">"Vous venez d'avancer de %d mètres. Êtes-vous sûr de l'annuler ?"</string>
-    <string name="running_no_track_desc">"Vous ne vous êtes pas assez déplacé. Êtes-vous sûr de l'annuler ?"</string>
-    <string name="running_set_pace_desc">Mi-Band se met à vibrer si votre rythme est plus lent que les paramètres</string>
-    <string name="sport_running_helper_test">Lancer des tests</string>
-    <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
-    <string name="lab_factory_internal_test">Analyse des habitudes de mouvement</string>
-    <string name="debug_host_label">Ajouter une adresse d\'hôte：</string>
-    <string name="host_can_not_be_empty">"L'adresse serveur ne peut pas être vide"</string>
-    <string name="host_change_error">Commutation des erreurs d\'adresse serveur</string>
-    <string name="host_change_success">Changement de l\'adresse serveur réussi</string>
+    <string name="watermark_search_location">\#Obtenir votre position#</string>
 </resources>
