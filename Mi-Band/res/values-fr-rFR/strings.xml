@@ -576,7 +576,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="share_qq_label">QQ</string>
     <string name="share_qq_zone_label">QZone</string>
     <string name="share_miliao_label">Mi-Talk</string>
-    <string name="share_line_label">Line</string>
+    <string name="share_line_label">Ligne</string>
     <string name="share_facebook_label">Facebook</string>
     <string name="health_link">HealthLink</string>
     <string name="title_health_link_service">Health Care Service</string>
@@ -586,17 +586,17 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="notice_for_users">Mi utilisateur bracelet exclusif</string>
     <string name="health_provider_desc">Services de santé de groupe</string>
     <string name="connected_broadcast">Flux de diffusion</string>
-    <string name="connected_broadcast_tips">Assurez-bracelets peuvent être trouvés avec d\'autres appareils</string>
-    <string name="connected_broadcast_disconnect_tips">Connecter le bracelet, puis réglez</string>
-    <string name="donot_have_band">Do not have a band?</string>
+    <string name="connected_broadcast_tips">Assurez-vous que les bracelets peuvent être trouvés par d\'autres appareils</string>
+    <string name="connected_broadcast_disconnect_tips">Connectez le bracelet, puis réglez</string>
+    <string name="donot_have_band">Avez-vous un bracelet ?</string>
     <string name="sensor_hub_tip">"Podomètre du téléphone affiché par coprocesseur interne du téléphone
  Données de mouvement (Capteur Hub)
- 绑定手环后，此数据仅作为参考，不会保存到云端"</string>
+ Ces données sont utilisées seulement à titre de référence, non enregistré dans Mi-Cloud</string>
     <string name="incomingcall_info_1">Cette notification à besoin que l\'app fonctionne en arrière-plan</string>
     <string name="incomingcall_info_2">"Verrouiller l'application Mi-Band et 
 ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</string>
-    <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Band à la liste blanche du gestionnaire de 3ème partie si elle existe</string>
-    <string name="incoming_call_notify_closed">Appel entrant notification fermé</string>
+    <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Band à la liste blanche du gestionnaire externes si elle existe</string>
+    <string name="incoming_call_notify_closed">Appel entrant, notification fermé</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
