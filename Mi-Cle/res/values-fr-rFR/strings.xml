@@ -31,6 +31,7 @@
     <string name="app_name">Mi-Cle</string>
     <string name="tab_mikey">Mi-Clé</string>
     <string name="tab_mikey_sprite">Assistant</string>
+    <string name="tab_combo">Paquet</string>
     <string name="notify_title_sprite">Assistant</string>
     <string name="notify_content_sprite">Cliquez sur la croix pour quitter</string>
     <string name="notify_ticker_sprite">"Assistant Mi-Clé est en cours d'exécution"</string>
@@ -61,9 +62,11 @@
     <string name="action_qrcode">Scanner un QR code</string>
     <string name="action_zero_volume">Silencieux</string>
     <string name="action_open_sound_recorder">Magnétophone</string>
-    <string name="action_open_or_close_motion">Rotation auto</string>
+    <string name="action_open_or_close_motion">Rotation de l\'écran</string>
     <string name="toast_open">Ouvrir</string>
     <string name="toast_close">Quitter</string>
+    <string name="toast_audio_record_start">Démarrer enregistrement</string>
+    <string name="toast_audio_record_stop">Arrêter enregistrement</string>
     <string name="super_difficult_click">Difficulté(s):</string>
     <string name="click_count_union">" fois"</string>
     <string name="action_open_wechat">Ouvrir WeChat</string>
@@ -148,9 +151,13 @@
     <string name="action_key_play_prev">Touche piste précédente</string>
     <string name="action_key_call">Touches de numérotation</string>
     <string name="action_key_end_call">Touche raccrocher</string>
+    <string name="action_key_vol_up">Augmenter le volume</string>
+    <string name="action_key_vol_down">Réduction du volume</string>
+    <string name="action_key_vol">Touches de volume</string>
     <string name="message_photo_end">Photos ont été enregistrés</string>
     <string name="select_camera">Sélectionner la caméra</string>
     <string name="select_direction">Sélectionnez une direction</string>
+    <string name="select_vol">Veuillez sélectionner les touches de volume</string>
     <string name="key_direction_up">Haut</string>
     <string name="key_direction_down">Bas</string>
     <string name="key_direction_left">Gauche</string>
@@ -209,6 +216,7 @@ Mode antipoussière sélectionné téléphone portable casque appareil dans le t
     <string name="silent_mode_tip_sub">Activer dans les paramètres</string>
     <string name="test_user_entry">Recrutement consultants</string>
     <string name="goto_update">Mettre à jour</string>
+    <string name="know_it">OK</string>
     <string name="unsupport_title">"Cette fonctionnalité n'est pas prise en charge"</string>
     <string name="unsupport_content">"S'il vous plaît mise à niveau vers la dernière version officielle « Developer Edition MIUI » obtenir de l'aide pour cette fonction !"</string>
     <string name="action_baidusearch">Baidu</string>
@@ -221,6 +229,44 @@ Mode antipoussière sélectionné téléphone portable casque appareil dans le t
     <string name="search_taobao_text">Taobao</string>
     <string name="search_iciba_text">Dictionnaire</string>
     <string name="search_select_title">Sélectionner des termes de recherche par défaut</string>
+    <string name="wallpaper_action">Changement papier peint</string>
+    <string name="wallpaper_change_desktop">Modifier le fond d\'écran</string>
+    <string name="wallpaper_change_home">Modifier le fond d\'écran de verrouillage</string>
+    <string name="wallpaper_change_both">Modifier Bureau + le fond d\'écran de verrouillage</string>
+    <string name="wallpaper_change_ok">Changement de papier peint</string>
+    <string name="wallpaper_change_home_failed">Ne pas de changer le fond d\'écran de verrouillage</string>
+    <string name="wallpaper_no_more">Pas de fond d\'écran de remplacement</string>
+    <string name="wallpaper_changing">Modification fond d\'écran...</string>
+    <string name="wallpaper_change_failed">Modification fond d\'écran échoue</string>
+    <string name="scrennshot_select_title">Sélectionner le type de capture d\'écran</string>
+    <string name="screenshot_full">Capture plein écran</string>
+    <string name="screenshot_crop">Capture une partie</string>
+    <string name="mikey_sprite_toggle_title">Mi-Cle pour ouvrir l\'assistant</string>
+    <string name="webpage_title">Ouvrez la page Web</string>
+    <string name="webpage_input_title">S\'il vous plaît entrez l\'URL</string>
+    <string name="screenkey_title">Trois boutons au bas de l\'écran</string>
+    <string name="screenkey_disabled">Vous avez désactivé les boutons de l\'écran</string>
+    <string name="screenkey_enabled">Boutons de l\'écran activé</string>
+    <string name="privacy_mode_title">Modèle invité</string>
+    <string name="privacy_mode_started">Est entré dans le modèle invité</string>
+    <string name="privacy_mode_end">A quitté le mode invité</string>
+    <string name="privacy_mode_first_hint">首次使用访客模式，请由系统设置开启访客模式</string>
+    <string name="combo_standard_title">标准套餐</string>
+    <string name="combo_standard_text">此套餐能够满足基本的日常使用，如果你没有特别明确的想法，标准套餐是个不错的选择。</string>
+    <string name="combo_speed_prefix">反应速度:</string>
+    <string name="combo_speed_slow">慢(容易连击)</string>
+    <string name="combo_speed_medium">中等</string>
+    <string name="combo_speed_fast">快(连击不容易成功)</string>
+    <string name="combo_saveas_title">填写套餐信息</string>
+    <string name="combo_edit_title">编辑套餐信息</string>
+    <string name="combo_saveas_name">套餐名称</string>
+    <string name="combo_saveas_name_empty">未命名</string>
+    <string name="combo_saveas_desc">套餐的简单说明</string>
+    <string name="combo_customize_desc">"套餐可以自己定义
+在自己设置好的米键首页下方点击“变成套餐”
+就OK啦～"</string>
+    <string name="combo_saveas_already_saved_desc">当前设置已经保存在套餐里啦～</string>
+    <string name="combo_edit">编辑</string>
     <string name="faq_title">F.A.Q Mi-Clé</string>
     <string name="faq_speed_title">Action non reconnue ?</string>
     <string name="faq_speed_text">Le temps de réaction entre deux clics peut être différent en fonction du modèle de téléphone. Il faut adapter la vitesse dans le menu paramètres</string>
@@ -250,4 +296,8 @@ L'utilisation de l'assistant désactivera certaines fonctionnalités de l'applic
     <string name="disable_mikey_sprite">"Quitter l'assistant"</string>
     <string name="dialog_title_disable_mikey_sprite">Confirmer la fermeture ？</string>
     <string name="splash_mikey_sprite">"Placer le point rond blanc à l'endroit désiré"</string>
+    <string name="enable_mad_click">开启狂点模式</string>
+    <string name="disable_mad_click">禁用狂点模式</string>
+    <string name="dialog_title_mad_click">提示</string>
+    <string name="dialog_content_mad_click">连续点击次数：</string>
 </resources>
