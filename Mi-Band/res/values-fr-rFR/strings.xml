@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="picker_menu_done">Terminé</string>
     <string name="pull_to_refresh_pull_label">Rafraîchissement déroulant</string>
     <string name="pull_to_refresh_release_label">Arrêtez la charge</string>
     <string name="pull_to_refresh_refreshing_label">Chargement en cours…</string>
@@ -240,6 +241,8 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="help_info_2">Assurez-vous de charger correctement votre Mi-Band. Vous devriez voir les LEDs vertes clignoter pendant la recharge.</string>
     <string name="help_title_3">Mi-Band a été appairé avec un autre téléphone ?</string>
     <string name="help_info_3">"Si votre Mi-Band est déjà appairé avec un téléphone ou qu'il n'est pas près de votre téléphone, éteignez le Bluetooth de l'ancien téléphone et relancer la recherche avec le nouveau téléphone à appairer."</string>
+    <string name="help_title_4">Essayez de réinitialiser votre téléphone.</string>
+    <string name="help_info_4">Ouvrir app Mi-Band après réinitialisation de votre téléphone</string>
     <string name="get_image_file_fail">"Impossible d'obtenir l'image"</string>
     <string name="select_image">Editer avatar</string>
     <string name="select_from_camera">Caméra</string>
@@ -403,6 +406,7 @@ ouvrir Réglages->Sécurité."</string>
     <string name="unlock_for_smartlock_pair_start_tip">Appairage en cours, s\'il vous plaît patientez...</string>
     <string name="unlock_for_smartlock_pair_success_tip">Succès de l\'appairage, Smart Lock disponible</string>
     <string name="unlock_for_smartlock_pair_fail_tip">Échec de l\'appairage, s\'il vous plaît patientez</string>
+    <string name="unlock_for_smartlock_start_setting">Démarrer</string>
     <string name="bind_weixin_title">Synchronisez pour partager et vous comparer à vos amis.</string>
     <string name="bind_qq_health_title">Ajouter un compte QQ</string>
     <string name="step1">Étape 1:</string>
@@ -455,6 +459,7 @@ Traduction par Fays et Boleofr"</string>
     <string name="stop">Fin</string>
     <string name="start">Début</string>
     <string name="no_wear_bracelet">"Vous n'avez pas porter votre Mi-Band la nuit dernière"</string>
+    <string name="no_steps">Pas d\'info de pas aujourd\'hui</string>
     <string name="no_wear_user_modified">Ajouter manuellement les données sur mon sommeil</string>
     <string name="dynamic_pull_connect_failed">Connexion échouée, tirez pour réessayer</string>
     <string name="dynamic_pull_connect_failed_hint">Veuillez vérifier que votre Mi-Band soit assez chargé.</string>
@@ -466,7 +471,6 @@ Traduction par Fays et Boleofr"</string>
     <string name="dynamic_pull_syncing_progress">Synchronisé (%s%%)</string>
     <string name="dynamic_pull_release_to_sync">Relâchez pour synchroniser</string>
     <string name="dynamic_pull_pull_to_sync">Tirez pour synchroniser</string>
-    <string name="dynamic_pull_update_report">%s données mises à jour</string>
     <string name="dynamic_pull_sync_error">Impossible de synchroniser, tirez pour rafraîchir.</string>
     <string name="bind_weixin_qrcode_name">QR code du Mi-Band</string>
     <string name="mili_exit_login_info_unbind">Êtes-vous sur de vouloir quitter ? Le Mi-Band sera déconnecté de votre téléphone</string>
@@ -578,17 +582,17 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="share_miliao_label">Mi-Talk</string>
     <string name="share_line_label">Ligne</string>
     <string name="share_facebook_label">Facebook</string>
-    <string name="health_link">HealthLink</string>
-    <string name="title_health_link_service">Health Care Service</string>
+    <string name="health_link">Lien santé</string>
+    <string name="title_health_link_service">Service de santé</string>
     <string name="health_care_date_limit">Période de service: année gratuite</string>
     <string name="health_care_country_limit">Région: Chine continentale</string>
     <string name="service_call_notice">Appelez au téléphone 24 heures, l\'accès aux services</string>
-    <string name="notice_for_users">Mi utilisateur bracelet exclusif</string>
+    <string name="notice_for_users">Utilisateur Mi-Band exclusif</string>
     <string name="health_provider_desc">Services de santé de groupe</string>
     <string name="connected_broadcast">Flux de diffusion</string>
     <string name="connected_broadcast_tips">Assurez-vous que les bracelets peuvent être trouvés par d\'autres appareils</string>
     <string name="connected_broadcast_disconnect_tips">Connectez le bracelet, puis réglez</string>
-    <string name="donot_have_band">Avez-vous un bracelet ?</string>
+    <string name="donot_have_band">Avez-vous un Mi-Band ?</string>
     <string name="sensor_hub_tip">"Podomètre du téléphone affiché par coprocesseur interne du téléphone
  Données de mouvement (Capteur Hub)
  Ces données sont utilisées seulement à titre de référence, non enregistré dans Mi-Cloud</string>
@@ -597,6 +601,10 @@ Couché à %3$s, réveillé à %4$s"</string>
 ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</string>
     <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Band à la liste blanche du gestionnaire externes si elle existe</string>
     <string name="incoming_call_notify_closed">Appel entrant, notification fermé</string>
+    <string name="title_activity_mark">Données market</string>
+    <string name="hello_world">Bonjour !</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
@@ -702,7 +710,7 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="sport_running_gps_cancel">Annuler</string>
     <string name="sport_running_settings">Paramètres</string>
     <string name="sport_running_history">Historique</string>
-    <string name="sport_running_slider_prompt">>>>Glissez vers la droite pour mettre en pause</string>
+    <string name="sport_running_slider_prompt">>>>Glissez vers la droite pour déverrouiller</string>
     <string name="sport_running_distance">Distance</string>
     <string name="sport_running_average_speed">Moyenne</string>
     <string name="sport_running_step">Pas</string>
@@ -713,6 +721,8 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="sport_running_history_title">Historique</string>
     <string name="sport_running_history_date" formatted="false">%d/%d/%d</string>
     <string name="sport_running_history_no_data">Aucune données</string>
+    <string name="sport_running_history_no_data_refresh">Aucune donnée. S\'il vous plaît cliquer pour rafraîchir</string>
+    <string name="sport_running_history_no_data_refreshing">Rafraîchissant. Patienter...</string>
     <string name="sport_running_cost_cal">%.1f cal</string>
     <string name="sport_running_prepare_map">Préparation des données pour le partage...</string>
     <string name="sport_running_prompt_per_kilometer" formatted="false">Vous avez couru %s km. Ce coût %s. Le rythme est %s.%s</string>
@@ -757,11 +767,21 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="sport_running_cal_desc">Brûlées</string>
     <string name="sport_running_cal_burnt">%d cal</string>
     <string name="sport_running_step_frequency">Fréquence (pas/m)</string>
-    <string name="sport_running_marathon_cost_time">(Tout un marathon doit %s dans ce rythme)</string>
+    <string name="sport_running_marathon_cost_time">Tout un marathon doit %s dans ce rythme</string>
     <string name="action_pop_service">Services</string>
     <string name="sport_running_label_hint">Entrées titre</string>
     <string name="sport_running_sport_state_sr_tips">Pause auto, reprendre une fois démarré</string>
     <string name="sport_running_auto_pause">Détection de pause automatique</string>
+    <string name="sport_running_auto_pause_desc">Arrête auto de l\'enregistrement après une pause pendant le déroulement</string>
+    <string name="sport_running_gallery">Galerie</string>
+    <string name="sport_running_failed_to_get_history_neterror">Erreur réseau</string>
+    <string name="sport_running_get_history_no_more_data">Aucune données</string>
+    <string name="sport_running_delete_track_item_confirm">"Êtes-vous sûr de vouloir supprimer cet album ? Il ne peut pas être restaurée après la suppression."</string>
+    <string name="watermark_search_location">\#Chargement de votre Localisation#</string>
+    <string name="watermark_btn_confirm">Confirmer</string>
+    <string name="watermark_guide_tips">Appuyez longuement pour déplacer</string>
+    <string name="no_bracelet_tips">(Disponible uniquement lorsque le Mi-Band et connecté)</string>
+    <string name="action_mark">Comportement de marquage</string>
     <string name="sport_running_helper_test">Lancer des tests</string>
     <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
     <string name="lab_factory_internal_test">Analyse des habitudes de mouvement</string>
@@ -783,9 +803,6 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="friends_invite2">Inviter</string>
     <string name="friends_search">Rechercher</string>
     <string name="friends_search_tips">ID MIUI / surnom / numéro de téléphone</string>
-    <string name="help_info_4">"Vous pouvez contacter notre service clientèle pour obtenir de l'aide.
-Service clientèle Tél: 400-100-567
-Du lundi au dimanche, 8:00 - 18:00"</string>
     <string name="lab_factory_sport_attention_punish_cheating"><font color="#ff0000">Oh ! Vous pouvez tricher, mais attention au châtiment ultime. Le groupe sera déçu. On vous surveille !</font></string>
     <string name="noti_bracelet_low_battery_title_none">"Le Mi-Band s'est arrêté."</string>
     <string name="point">point(s)</string>
@@ -799,5 +816,4 @@ Du lundi au dimanche, 8:00 - 18:00"</string>
     <string name="stat_steps_consecutive_active">"L'activité maximale"</string>
     <string name="unknown_location">Non localisé</string>
     <string name="unknown_mili">Mon</string>
-    <string name="watermark_search_location">\#Obtenir votre position#</string>
 </resources>
