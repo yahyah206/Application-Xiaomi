@@ -58,4 +58,34 @@
         <item>Mauvaise</item>
         <item>Très mauvaise</item>
     </string-array>
+    <string-array name="weight_test_unit">
+        <item>Kg</item>
+        <item>jin</item>
+        <item>livre</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>Léger</item>
+        <item>Normal</item>
+        <item>trop gros</item>
+        <item>Gras</item>
+        <item>Trop gras</item>
+    </string-array>
+    <string-array name="health_link_title">
+        <item>"1: Intervention d'urgence 24 heures"</item>
+        <item>"2: Proposition d'urgence"</item>
+        <item>"3: Aider à organiser des véhicules d'urgence"</item>
+        <item>"4: Aider le rapport de situation dangereuse"</item>
+        <item>"5: Contactez les familles"</item>
+        <item>"6: Hôpital d'urgence Disponible"</item>
+        <item>"7: Guide d'hospitalisation"</item>
+    </string-array>
+    <string-array name="health_link_content">
+        <item>专业医护人员24小时中、英双语提供应急帮助，7x24小时，365天全年无休。</item>
+        <item>在用户告知真实情况下，远盟将通过电话方式提供白金十分钟的“自救”或“互救”应急建议。</item>
+        <item>远盟呼叫中心接到用户电话，立即拨打当地急救中心电话（“120”或“999”），建立三方通话，并由用户向急救中心自述出险位置，跟踪急救车的救援进程。</item>
+        <item>在出现意外时协助用户向有关部门报案。</item>
+        <item>根据用户意愿及提供的联系方式通知家属或紧急联络人。</item>
+        <item>在不影响“就急、就近、就病情、就病人及家属意愿”的急救原则之下，远盟可向用户推介实施急救的医疗医院，最终由用户自主决定，或根据实际情况由急救车上的医生安排。</item>
+        <item>指导办理住院手续，提供住院注意事项咨询。</item>
+    </string-array>
 </resources>
