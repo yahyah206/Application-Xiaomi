@@ -270,7 +270,7 @@ Ne pas éteindre ou débrancher la caméra pendant la mise à jour !"</string>
     <string name="device_address">Adresse de la caméra</string>
     <string name="device_alarm">Alarme anti-intrusion</string>
     <string name="failed_to_update_device">Echéc dans la mise à jour de la caméra !</string>
-    <string name="success_to_update_device">Caméra mise à joru avec succès !</string>
+    <string name="success_to_update_device">Caméra mise à jour avec succès !</string>
     <string name="share_to_friend">Partager avec des amis</string>
     <string name="public_to_all">Disponible publiquement</string>
     <string name="cancel_public_to_all">Annuler le partage public</string>
