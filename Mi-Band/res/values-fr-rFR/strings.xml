@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Mi-Band</string>
     <string name="picker_menu_done">Terminé</string>
     <string name="pull_to_refresh_pull_label">Rafraîchissement déroulant</string>
     <string name="pull_to_refresh_release_label">Arrêtez la charge</string>
@@ -7,7 +8,6 @@
     <string name="pull_to_refresh_from_bottom_pull_label">Chargez Plus</string>
     <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
     <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
-    <string name="app_name">Mi-Band</string>
     <string name="action_exit">Quitter</string>
     <string name="register">"S'inscrire"</string>
     <string name="login">Connexion</string>
@@ -63,6 +63,7 @@ Accord: %2$s"</string>
     <string name="unit_meter">" m"</string>
     <string name="unit_calorie">" cal "</string>
     <string name="unit_step">pas</string>
+    <string name="unit_weight">" kg "</string>
     <string name="unit_hour">" h "</string>
     <string name="unit_min">" min "</string>
     <string name="unit_min_short">" m "</string>
@@ -75,7 +76,7 @@ Accord: %2$s"</string>
     <string name="noti_bracelet_low_battery_content_low">Vous devez recharger votre batterie.</string>
     <string name="bt_operation_failed_tips">Le Bluetooth ne fonctionne pas correctement, veuillez réessayer.</string>
     <string name="multi_devices_info">"Si dans votre voisinage il y a plusieurs Mi-Band. Tenez votre poignet près du téléphone et éloignez l'autre Mi-Band de 10 mètres. Après cela, relancez une recherche."</string>
-    <string name="multi_devices_title">Appairage impossible.</string>
+    <string name="multi_devices_title">Trop de périphériques à proximité</string>
     <string name="search_bracelet_again">Recherche supplémentaire</string>
     <string name="search_devices_info">Veuillez mettre votre Mi-Band et rester à proximité de votre téléphone.</string>
     <string name="search_bracelet_ok">Mi-Band trouvé avec succès !</string>
@@ -282,6 +283,7 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="dynamic_detail_sleep_title">%s</string>
     <string name="dynamic_detail_sleep_title_yesterday">Dernière nuit de sommeil</string>
     <string name="dynamic_detail_step_title">%s</string>
+    <string name="dynamic_detail_weight_title">%s</string>
     <string name="dynamic_detail_step_share_title">%s</string>
     <string name="dynamic_detail_step_title_today">"Aujourd'hui"</string>
     <string name="dynamic_sleep_deep">Sommeil profond</string>
@@ -397,8 +399,10 @@ Vous vous êtes couché aux alentours de %5$s, l'heure de réveil moyenne est %6
     <string name="unlock_screen_set_use_bracelet_tips">Confirmez le mot de passe.</string>
     <string name="unlock_screen_set_use_bracelet">Étape 2: Définir pour déverrouiller votre téléphone avec Mi-Band.</string>
     <string name="unlock_screen_set_success">Vous avez configuré votre téléphone pour le déverrouiller avec ce Mi-Band.</string>
-    <string name="unlock_screen_modify_unlock">"Si vous voulez effectuer un changement
+    <string name="unlock_screen_modify_unlock_v5">"Vous voulez effectuer un changement
 ouvrir Réglages->Sécurité."</string>
+    <string name="unlock_screen_modify_unlock_v6">"Vous voulez effectuer un changement
+Paramètres -> écran de verrouillage et mot de passe -> Périphérique Bluetooth"</string>
     <string name="unlock_for_smartlock_tip">Utilisez le Mi-Band pour débloquer l\'application en cours d\'exécution en arrière-plan</string>
     <string name="unlock_for_smartlock_tip_step1">Étape 1: Aller à dans <b>Paramètres système</b> - <b> Sécurité</b></string>
     <string name="unlock_for_smartlock_tip_step2">Étape 2: Définir le <b>Mode de verrouillage de l\'écran</b> avec un schéma, un code PIN ou mot de passe</string>
@@ -445,7 +449,6 @@ Il faut garder le rythme"</string>
     <string name="continue_reach_goal">"Continuez d'atteindre vos objectifs"</string>
     <string name="continue_tips_format">"Votre plus beau record serait d'atteindre votre objectif pendant %1$s jour(s)."</string>
     <string name="gram">" g "</string>
-    <string name="kilogram">" kg "</string>
     <string name="sync_to_server">Synchro des données sur le Cloud en cours ...</string>
     <string name="unlock_screen_miui_version_low">"Votre version de MIUI n'est pas supporté par le Mi-Band, veuillez mettre à jour votre version."</string>
     <string name="share_uninstall_client">"L'application n'a pas été installée, impossible de partager"</string>
@@ -560,11 +563,16 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="closed">Aucun</string>
     <string name="birthday">Anniversaire</string>
     <string name="user_agreement_ux">"Rejoignez le programme d'amélioration UX"</string>
-    <string name="weight_test_dynamic_detail">Poids: %1$s%2$s</string>
-    <string name="weight_test_dynamic_title">%1$s</string>
+    <string name="weight_dynamic_title">%1$s %2$s, poids %3$s%4$s</string>
+    <string name="weight_dynamic_visitor_title">%1$s poids %2$s%3$s</string>
+    <string name="weight_dynamic_detail">%1$s</string>
+    <string name="weight_guest">Invité</string>
     <string name="bind_devices">Appareils lier</string>
     <string name="bind_mi_band">Mi-Band lier</string>
+    <string name="bind_mi_weight">Balance lier</string>
     <string name="bind_mi_band_about"><Data>&lt;a href=http://www.mi.com>View Mi Bind Website&lt;/a></Data></string>
+    <string name="bind_mi_weight_about"><Data>&lt;a href=http://www.mi.com>View Mi Weight Scale Website&lt;/a></Data></string>
+    <string name="bind_mi_weight_howto">Échelles</string>
     <string name="read_useragreement">"J'ai lu l'accord de l'utilisateur et politique de confidentialité"</string>
     <string name="search_weight_scale">Recherche du poids</string>
     <string name="search_weight_scale_info">"S'il vous plaît rester près de la balance"</string>
@@ -574,6 +582,45 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="weight_scale">Balance</string>
     <string name="band">Mi-Band</string>
     <string name="bind_weight_scale">Associer la balance</string>
+    <string name="unbind_weight_scale">Unbind weight scale ?</string>
+    <string name="weight_fw_upgrade_tips">升级中保持手机靠近体重秤</string>
+    <string name="weight_fw_upgrade_title">升级体重秤固件</string>
+    <string name="weight_not_found_title">Weight Scale not found</string>
+    <string name="weight_not_found_info">Please stay close to your Weight Scale</string>
+    <string name="about_mi_band">Use Mi Band to set, track, and follow your health and fitness data day and night.</string>
+    <string name="weight_dynamic_list_visit_tips">点击选择成员告诉我你是谁吧</string>
+    <string name="find_weight_scale">Find Weight Scale</string>
+    <string name="find_weight_scale_info">Please stand on Weight Scale to bind.</string>
+    <string name="bind_weight_fail">Bind Failed</string>
+    <string name="device_not_found">Périphérique introuvable</string>
+    <string name="connecting">Connexion…</string>
+    <string name="multi_weight_devices_info">Please keep away from other Weight Scales more than 10 meters.</string>
+    <string name="look_weight_device_list">Voir les échelles à proximité</string>
+    <string name="family_member">Famille</string>
+    <string name="user_staron_me">Abonnements</string>
+    <string name="weight_measure">Mesure</string>
+    <string name="baby_weight">Bébé</string>
+    <string name="visitor_weight">Poids</string>
+    <string name="name">Nom</string>
+    <string name="input_family_member_name">Nom de l\'entrée</string>
+    <string name="input_your_name">Nom de l\'entrée</string>
+    <string name="goal_weight">Objectif</string>
+    <string name="delete">Supprimer</string>
+    <string name="weight_bmi_tips">BMI %1$s %2$s</string>
+    <string name="weight_report_suggest">Recommandation:</string>
+    <string name="weight_report_user_info_header">Rapport sur la mesure %1$s</string>
+    <string name="weight_help_title_0">Is your Weight Scale too far away?</string>
+    <string name="weight_help_info_0">Make sure the Weight Scale is close to your device throughout the entire pairing process.</string>
+    <string name="weight_help_title_1">"Check the Weight Scale's battery"</string>
+    <string name="weight_help_info_1">"Make sure the Weight Scale is charged and hasn't run out of power."</string>
+    <string name="weight_help_title_2">Restart Bluetooth</string>
+    <string name="weight_help_info_2">Restart Bluetooth by turning it off and then on again in Settings.</string>
+    <string name="weight_help_title_3">Is this Weight Scale paired with another device?</string>
+    <string name="weight_help_info_3">"Make sure your Weight Scale isn't already paired with another device nearby."</string>
+    <string name="weight_not_response">Weight Scale not response</string>
+    <string name="bind_weight_ok">Bind Weight Scale OK.</string>
+    <string name="weight_history_dynamic_title">成功同步%1$s条历史体重数据</string>
+    <string name="weight_history_dynamic_detail">同步了%1$s到%2$s的数据</string>
     <string name="share_weibo_label">Weibo</string>
     <string name="share_pengyouquan_label">Moments</string>
     <string name="share_weixin_label">WeChat</string>
@@ -588,8 +635,8 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="health_care_country_limit">Région: Chine continentale</string>
     <string name="service_call_notice">Appelez au téléphone 24 heures, l\'accès aux services</string>
     <string name="notice_for_users">Utilisateur Mi-Band exclusif</string>
-    <string name="health_provider_desc">Services de santé de groupe</string>
-    <string name="connected_broadcast">Flux de diffusion</string>
+    <string name="health_provider_desc">Services de santé</string>
+    <string name="connected_broadcast">BLE diffusion</string>
     <string name="connected_broadcast_tips">Assurez-vous que les bracelets peuvent être trouvés par d\'autres appareils</string>
     <string name="connected_broadcast_disconnect_tips">Connectez le bracelet, puis réglez</string>
     <string name="donot_have_band">Avez-vous un Mi-Band ?</string>
@@ -601,10 +648,25 @@ Couché à %3$s, réveillé à %4$s"</string>
 ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</string>
     <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Band à la liste blanche du gestionnaire externes si elle existe</string>
     <string name="incoming_call_notify_closed">Appel entrant, notification fermé</string>
-    <string name="title_activity_mark">Données market</string>
+    <string name="title_activity_weight_tips">Poids Conseils Activité</string>
     <string name="hello_world">Bonjour !</string>
     <string name="action_settings">Paramètres</string>
+    <string name="title_activity_mark">MarkData</string>
     <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="title_activity_tag_data">Tag Activité de données</string>
+    <string name="weight_weighting_now">Mesures</string>
+    <string name="weight_edit">Editer</string>
+    <string name="weight_edit_delete">Supprimer l\'enregistrement de poids</string>
+    <string name="weight_edit_move">Déplacez fiche de poids</string>
+    <string name="weight_delete_confirm_title">Confirmer pour supprimer</string>
+    <string name="weight_delete_confirm_msg">fiche de poids %s ?</string>
+    <string name="title_activity_tag_history">Tag Historique Activité</string>
+    <string name="weighting_failed">"Poids instable
+Please get off after the LED blinked."</string>
+    <string name="select_devices">Sélectionner les périphériques</string>
+    <string name="select_devices_info">S\'il vous plaît sélectionnez Périphériques Mi à lier</string>
+    <string name="weight_settings_merge_title">合并频繁称重记录</string>
+    <string name="weight_settings_merge_tips">同一成员两次称重间隔30秒内，覆盖前一条记录</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
@@ -617,7 +679,7 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="lab_factory_sport_monitor_cancelled_notice">Le capteur va compter %s automatiquement</string>
     <string name="lab_factory_sport_monitor_timeout_notice">"Pas d'activité detectée"</string>
     <string name="lab_factory_sport_device_preparing">Prêt</string>
-    <string name="lab_factory_sport_best_record">Record personnel :</string>
+    <string name="lab_factory_sport_best_record">Record personnel:</string>
     <string name="lab_factory_sport_group_record">Nombre de groupe:</string>
     <string name="lab_factory_sport_share_info_history_best_record">Meilleur record :</string>
     <string name="lab_factory_sport_share_info_group_record">Dossier de groupe</string>
@@ -776,12 +838,31 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="sport_running_gallery">Galerie</string>
     <string name="sport_running_failed_to_get_history_neterror">Erreur réseau</string>
     <string name="sport_running_get_history_no_more_data">Aucune données</string>
-    <string name="sport_running_delete_track_item_confirm">"Êtes-vous sûr de vouloir supprimer cet album ? Il ne peut pas être restaurée après la suppression."</string>
+    <string name="sport_running_delete_track_item_confirm">"Êtes-vous sûr de vouloir supprimer cet album ? Il ne peut pas être restaurée après la suppression"</string>
+    <string name="sport_running_backgroud_notification">Course...,go go</string>
     <string name="watermark_search_location">\#Chargement de votre Localisation#</string>
     <string name="watermark_btn_confirm">Confirmer</string>
     <string name="watermark_guide_tips">Appuyez longuement pour déplacer</string>
     <string name="no_bracelet_tips">(Disponible uniquement lorsque le Mi-Band et connecté)</string>
     <string name="action_mark">Comportement de marquage</string>
+    <string name="action_sleep">Sommeil</string>
+    <string name="action_bath">Bain</string>
+    <string name="action_run">Course</string>
+    <string name="action_bike">Vélo</string>
+    <string name="action_walk">Marche</string>
+    <string name="action_badminton">Badminton</string>
+    <string name="action_basketball">Basketball</string>
+    <string name="action_pingpong">Pingpong</string>
+    <string name="complete">Complet</string>
+    <string name="notice_for_tag_time">Notez: le nombre après X signifie que le nombre de fois que vous marqué</string>
+    <string name="choose_tag_item">Quel chose allez-vous faire ?</string>
+    <string name="confirm_complete_tag">Etes-vous sûr de remplir cette tâche ?</string>
+    <string name="tag_data_collecting">Collecte des données, veuillez attendre...</string>
+    <string name="toast_behavior_tag_failed">Recueillent des données de comportement ont échoué!</string>
+    <string name="toast_enable_behavior_tag">Comportement fonction de tag activé ！</string>
+    <string name="toast_disable_behavior_tag">Comportement fonction de tag désactivé ！</string>
+    <string name="action_brush_tooth">Se brosser les dents</string>
+    <string name="data_loading">Chargement... S\'il vous plaît attendre un moment</string>
     <string name="sport_running_helper_test">Lancer des tests</string>
     <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
     <string name="lab_factory_internal_test">Analyse des habitudes de mouvement</string>
