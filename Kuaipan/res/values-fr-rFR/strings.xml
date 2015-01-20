@@ -543,7 +543,7 @@
     <string name="xiaomi_auth">Accès autorisé</string>
     <string name="xiaomi_account_switch">Activer/Désactiver comptes Mi</string>
     <string name="xiaomi_account">Mi-ID: %1$s</string>
-    <string name="xiaomi_account_init">获取小米账号信息</string>
+    <string name="xiaomi_account_init">Obtenir des informations de compte Mi</string>
     <string name="association_account">Compte associé</string>
     <string name="no_logined_account">未检测到已登录快盘帐号</string>
     <string name="login_with_another_account">用其他帐号登录</string>
@@ -596,12 +596,12 @@
     <string name="action_add_folder">添加目录</string>
     <string name="btn_add_backup_list">已选择%1$d个目录，确定</string>
     <string name="menu_contact_photo_switch">仅WiFi下同步头像</string>
-    <string name="menu_backup_auto">自动备份</string>
-    <string name="menu_backup_auto_wifi_only">自动备份(仅WiFi)</string>
-    <string name="menu_sync_auto">自动同步</string>
-    <string name="menu_backup_notification">备份通知</string>
+    <string name="menu_backup_auto">Sauvegarde auto</string>
+    <string name="menu_backup_auto_wifi_only">Sauvegarde auto (Wi-Fi)</string>
+    <string name="menu_sync_auto">Synchro auto</string>
+    <string name="menu_backup_notification">Notification de sauvegarde</string>
     <string name="menu_backup_ingore_garbage_file">过滤隐藏文件</string>
-    <string name="menu_backup_folder">备份目录选择</string>
+    <string name="menu_backup_folder">Sélectionnez le répertoire de sauvegarde</string>
     <string name="title_folder_type">目录类型</string>
     <string name="title_pick_backup_folder">请选择要备份的目录</string>
     <string name="hint_search_calllog">请输入要搜索的电话号码</string>
