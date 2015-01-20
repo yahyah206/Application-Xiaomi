@@ -119,6 +119,11 @@
     <string name="middle_ware_authorize_login">登录授权</string>
     <string name="middle_ware_authorize">授权</string>
     <string name="middle_ware_authorizing_account">正在授权帐号登录中…</string>
+    <string name="respone_new_folder_fail">创建文件夹失败</string>
+    <string name="respone_client_error">客户端错误</string>
+    <string name="respone_sdcard_invaid">sdcard 不可用</string>
+    <string name="respone_sdcard_low_space">sdcard空间不足</string>
+    <string name="respone_unkown">未知错误</string>
     <string name="app_name">Kuaipan</string>
     <string name="path_kuaipan">Kuaipan</string>
     <string name="path_local_root">Stockage local</string>
@@ -309,7 +314,7 @@
     <string name="pin_msg_enter_new_pin">请输入新密码</string>
     <string name="pin_msg_enter_new_pin_again">请再次输入新密码</string>
     <string name="pin_err_msg_pin_not_same">密码不一致，请重新输入</string>
-    <string name="pin_err_msg_pin_is_wrong">密码错误，请重新输入</string>
+    <string name="pin_err_msg_pin_is_wrong">密码错误，剩余%1$d次</string>
     <string name="pin_toast_pin_turn_on">已开启密码锁</string>
     <string name="pin_toast_pin_turn_off">密码锁已关闭</string>
     <string name="pin_toast_pin_modified">已成功修改密码锁</string>
@@ -374,6 +379,7 @@
     <string name="label_system_share_box">Partage de disque rapide</string>
     <string name="label_system_share_box_send">收到的分享</string>
     <string name="label_system_share_box_receive">发出的分享</string>
+    <string name="label_system_demo">试读文件</string>
     <string name="label_system_weixin">Micro-canaux favoris</string>
     <string name="label_system_weixin_desc" />
     <string name="label_system_mobile_photo">Album mobile</string>
@@ -600,6 +606,7 @@
     <string name="title_pick_backup_folder">请选择要备份的目录</string>
     <string name="hint_search_calllog">请输入要搜索的电话号码</string>
     <string name="empty_bakup">这里是空的，快去备份吧！</string>
+    <string name="empty_search_result">搜索结果为空</string>
     <string name="contact_phone_empty">-</string>
     <string name="title_auto_backup_opened">自动备份已开启</string>
     <string name="title_auto_sync_opened">自动同步已开启</string>
@@ -742,11 +749,15 @@
     <string name="backup_running">备份中...</string>
     <string name="backup_waiting_wifi">等待WiFi</string>
     <string name="backup_faild">备份失败</string>
+    <string name="backup_file_not_exists">"%1$s
+已删除或移动"</string>
+    <string name="browser_file_not_exists">此文件已删除或移动</string>
     <string name="contact_backup_complete">同步完成</string>
     <string name="contact_backup_fail">同步失败</string>
     <string name="msg_calls_count_is_zero">没有发现要备份的通话记录</string>
     <string name="txt_backup_file_count">待备份文件%1$d个</string>
-    <string name="txt_backup_faild_file_count">%1$d个文件未备份，请重试</string>
+    <string name="txt_backup_faild_file_count">"%1$d个文件未备份，请重试
+错误原因，请查看传输列表"</string>
     <string name="txt_scanning_backup_file">扫描可备份文件</string>
     <string name="txt_backup_not_used">点击按钮开始备份！</string>
     <string name="txt_sync_not_used">点击按钮开始同步！</string>
@@ -1013,4 +1024,3 @@ Xunlei Networking Technologies,LTD."</string>
     <string name="download_mobile_app_link">推荐你用一下快盘，功能强大的手机备份软件，1T空间免费送，再也不用为手机空间小发愁了 http://www.kuaipan.cn/redirects/getapp?=android</string>
     <string name="title_test">Test</string>
 </resources>
-
