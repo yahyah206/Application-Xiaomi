@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mi-Band</string>
+    <string name="app_name">Mi-Fit</string>
     <string name="picker_menu_done">Terminé</string>
     <string name="pull_to_refresh_pull_label">Rafraîchissement déroulant</string>
     <string name="pull_to_refresh_release_label">Arrêtez la charge</string>
@@ -73,37 +73,39 @@ Accord: %2$s"</string>
     <string name="noti_bracelet_low_battery_title">Batterie faible</string>
     <string name="noti_bracelet_low_battery_content_high">"La capacité batterie est inférieure à 5%, s'il vous plaît pensez à recharger"</string>
     <string name="noti_bracelet_low_battery_content_mid">Batterie est faible, pensez à recharger</string>
-    <string name="noti_bracelet_low_battery_content_low">Vous devez recharger votre batterie.</string>
-    <string name="bt_operation_failed_tips">Le Bluetooth ne fonctionne pas correctement, veuillez réessayer.</string>
-    <string name="multi_devices_info">"Si dans votre voisinage il y a plusieurs Mi-Band. Tenez votre poignet près du téléphone et éloignez l'autre Mi-Band de 10 mètres. Après cela, relancez une recherche."</string>
+    <string name="noti_bracelet_low_battery_content_low">Vous devez recharger votre batterie</string>
+    <string name="noti_weight_low_battery_title">Batterie est faible</string>
+    <string name="noti_weight_low_battery_content">Initialiser l\'heure du système après le rechargement de la batterie</string>
+    <string name="bt_operation_failed_tips">Le Bluetooth ne fonctionne pas correctement, veuillez réessayer</string>
+    <string name="multi_devices_info">"Si dans votre voisinage il y a plusieurs Mi-Fit. Tenez votre poignet près du téléphone et éloignez l'autre Mi-Fit de 10 mètres. Après cela, relancez une recherche."</string>
     <string name="multi_devices_title">Trop de périphériques à proximité</string>
     <string name="search_bracelet_again">Recherche supplémentaire</string>
-    <string name="search_devices_info">Veuillez mettre votre Mi-Band et rester à proximité de votre téléphone.</string>
-    <string name="search_bracelet_ok">Mi-Band trouvé avec succès !</string>
-    <string name="found_bracelet_info">Quand les LEDs du Mi-Band commencent à clignoter, tapotez plusieurs fois pour appairer.</string>
+    <string name="search_devices_info">Veuillez mettre votre Mi-Fit et rester à proximité de votre téléphone.</string>
+    <string name="search_bracelet_ok">Mi-Fit trouvé avec succès !</string>
+    <string name="found_bracelet_info">Quand les LEDs du Mi-Fit commencent à clignoter, tapotez plusieurs fois pour appairer.</string>
     <string name="bind_bracelet_ok">Appairé avec succès.</string>
-    <string name="device_not_response">"Pourquoi n'y a-t-il pas de témoin lumineux sur mon Mi-Band ?"</string>
+    <string name="device_not_response">"Pourquoi n'y a-t-il pas de témoin lumineux sur mon Mi-Fit ?"</string>
     <string name="action_local_ota">Mise à jour sur la carte SD</string>
     <string name="bracelet_not_found_title">Veuillez recharger votre appareil</string>
-    <string name="bracelet_not_found_info">Veuillez recommencer la recherche quand vous voyez une des LED du Mi-Band émettre des flashs</string>
+    <string name="bracelet_not_found_info">Veuillez recommencer la recherche quand vous voyez une des LED du Mi-Fit émettre des flashs</string>
     <string name="get_help">"Besoin d'aide"</string>
     <string name="system_not_support_title">Pas de soutien.</string>
-    <string name="system_not_support_info">"Pour utiliser le Mi-Band, vous avez besoin de mettre à jour la version d'Android de votre téléphone.
-Seule la version d'Android 4.4 ou supérieure est prise en charge par le Mi-Band."</string>
+    <string name="system_not_support_info">"Pour utiliser le Mi-Fit, vous avez besoin de mettre à jour la version d'Android de votre téléphone.
+Seule la version d'Android 4.4 ou supérieure est prise en charge par le Mi-Fit."</string>
     <string name="system_low_title">Veuillez mettre à jour votre système.</string>
-    <string name="system_low_info">Veuillez installer Android 4.4 ou une version supérieure pour utiliser le Mi-Band.</string>
-    <string name="bind_bracelet">Mi-Band trouvé</string>
-    <string name="bracelet_login_title">Salut, je suis ton Mi-Band.</string>
+    <string name="system_low_info">Veuillez installer Android 4.4 ou une version supérieure pour utiliser le Mi-Fit.</string>
+    <string name="bind_bracelet">Mi-Fit trouvé</string>
+    <string name="bracelet_login_title">Salut, je suis ton Mi-Fit.</string>
     <string name="bracelet_login_info">Mi-Cloud fournira des suggestions basées sur vos activités et le suivi de votre sommeil.</string>
     <string name="male">Homme</string>
     <string name="female">Femme</string>
     <string name="cm">cm</string>
     <string name="share">Partager</string>
-    <string name="person_info_finished_info">Le Mi-Band a été correctement configuré.</string>
+    <string name="person_info_finished_info">Le Mi-Fit a été correctement configuré.</string>
     <string name="kg">kg</string>
     <string name="new_friend_cancel">Refuser</string>
     <string name="new_friend_accept">Accepter</string>
-    <string name="search_devices_title">Rechercher de Mi-Band</string>
+    <string name="search_devices_title">Rechercher de Mi-Fit</string>
     <string name="share_blog_cancel">Annuler</string>
     <string name="share_blog_title">Publier des mises à jour</string>
     <string name="share_blog_share">Publier</string>
@@ -120,10 +122,10 @@ Seule la version d'Android 4.4 ou supérieure est prise en charge par le Mi-Band
     <string name="km">km</string>
     <string name="cal">cal</string>
     <string name="step">pas</string>
-    <string name="s_mili">Mi-Band</string>
+    <string name="s_mili">Mi-Fit</string>
     <string name="rename_mili">Nom</string>
-    <string name="reset_mili">Réinitialiser Mi-Band</string>
-    <string name="bind_new_mili">Appairer un nouveau Mi-Band</string>
+    <string name="reset_mili">Réinitialiser Mi-Fit</string>
+    <string name="bind_new_mili">Appairer un nouveau Mi-Fit</string>
     <string name="state_binded">"S'identifier"</string>
     <string name="state_unbinded">Déconnexion</string>
     <string name="state_bind_failed">"Impossible d'ajouter un compte"</string>
@@ -137,15 +139,16 @@ Seule la version d'Android 4.4 ou supérieure est prise en charge par le Mi-Band
     <string name="exit_app_continue">Continuer</string>
     <string name="exit_app_tips">"Etes-vous sûr de vouloir vous déconnecter ? 
 La synchronisation sera perdue après la déconnexion."</string>
-    <string name="set_mili_name">Nom du Mi-Band</string>
-    <string name="mili_name">Nom du Mi-Band</string>
+    <string name="set_mili_name">Nom du Mi-Fit</string>
+    <string name="mili_name">Nom du Mi-Fit</string>
     <string name="set_mili_name_ok">Nouveau nom enregistré</string>
-    <string name="set_mili_name_fail">Impossible de renommer votre Mi-Band.</string>
+    <string name="set_mili_name_fail">Impossible de renommer votre Mi-Fit.</string>
     <string name="mili_name_too_long">Le nom est trop long, veuillez le changer</string>
-    <string name="mili_rename_fail">Échec lors de la mise à jour du nom du Mi-Band</string>
-    <string name="mili_unbind_question">"Votre téléphone n'aura plus accès aux données du Mi-Band une fois le désapairrage effectué"</string>
-    <string name="share_to_title">Mi-Band</string>
-    <string name="share_to_content">Partagez votre vie avec le Mi-Band.</string>
+    <string name="mili_rename_fail">Échec lors de la mise à jour du nom du Mi-Fit</string>
+    <string name="mili_unbind_question">"Votre téléphone n'aura plus accès aux données du Mi-Fit une fois le désapairrage effectué"</string>
+    <string name="weight_unbind_question">解除绑定后，手机将无法获取称重记录</string>
+    <string name="share_to_title">Mi-Fit</string>
+    <string name="share_to_content">Partagez votre vie avec le Mi-Fit.</string>
     <string name="share_goal_tips_succ">"Vous avez de grands projets ?
 Faites vos premiers pas."</string>
     <string name="share_goal_tips_fail">Pas si loin de votre objectif, il faut juste travailler plus dur.</string>
@@ -162,11 +165,11 @@ Cela correspond à une marche de 12000 pas."</string>
     <string name="everyday">Tous les jours</string>
     <string name="mon_fri">Lundi au Vendredi</string>
     <string name="mon_sat">Lundi au Dimanche</string>
-    <string name="device_not_found_not_knocked">"Relancez la recherche après avoir tapoté sur le Mi-Band une fois qu'il clignote."</string>
+    <string name="device_not_found_not_knocked">"Relancez la recherche après avoir tapoté sur le Mi-Fit une fois qu'il clignote."</string>
     <string name="statistic">Statistiques</string>
-    <string name="mili_unbind_question_content">Une fois que vous avez désappairé le Mi-Band de votre téléphone, vous pouvez en appairer un autre</string>
+    <string name="mili_unbind_question_content">Une fois que vous avez désappairé le Mi-Fit de votre téléphone, vous pouvez en appairer un autre</string>
     <string name="mili_unbind_question_content_1" />
-    <string name="mili_reset_info">"Vous êtes sur le point d'effacer les données de ce Mi-Band et puis de le réinitialiser avec les paramètres d'usine 
+    <string name="mili_reset_info">"Vous êtes sur le point d'effacer les données de ce Mi-Fit et puis de le réinitialiser avec les paramètres d'usine 
 Êtes-vous sûr de vouloir continuer ?"</string>
     <string name="mili_exit_login_info">"Vous êtes sur le point de vous déconnecter de votre compte Mi
 Voulez-vous continuer ?"</string>
@@ -233,17 +236,17 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="wait">Un instant ...</string>
     <string name="content_too_short">Le contenu est manquant.</string>
     <string name="help">Aide</string>
-    <string name="unlock_screen_invalid_helper">Impossible de déverrouiller votre téléphone avec le Mi-Band ?</string>
-    <string name="help_title_0">Votre téléphone est près du Mi-Band ?</string>
+    <string name="unlock_screen_invalid_helper">Impossible de déverrouiller votre téléphone avec le Mi-Fit ?</string>
+    <string name="help_title_0">Votre téléphone est près du Mi-Fit ?</string>
     <string name="help_info_0">Assurez-vous que votre téléphone prend en charge le Bluetooth 4.0 ou une version supérieure. Vous pouvez trouver ces informations dans les spécifications de votre téléphone.</string>
     <string name="help_title_1">"Est-ce que le système d'exploitation de votre téléphone répond aux exigences recommandées ?"</string>
-    <string name="help_info_1">Seul Android 4.4 ou supérieur supporte le Mi-Band.</string>
-    <string name="help_title_2">Est-ce que votre Mi-Band est complètement chargé ?</string>
-    <string name="help_info_2">Assurez-vous de charger correctement votre Mi-Band. Vous devriez voir les LEDs vertes clignoter pendant la recharge.</string>
-    <string name="help_title_3">Mi-Band a été appairé avec un autre téléphone ?</string>
-    <string name="help_info_3">"Si votre Mi-Band est déjà appairé avec un téléphone ou qu'il n'est pas près de votre téléphone, éteignez le Bluetooth de l'ancien téléphone et relancer la recherche avec le nouveau téléphone à appairer."</string>
+    <string name="help_info_1">Seul Android 4.4 ou supérieur supporte le Mi-Fit.</string>
+    <string name="help_title_2">Est-ce que votre Mi-Fit est complètement chargé ?</string>
+    <string name="help_info_2">Assurez-vous de charger correctement votre Mi-Fit. Vous devriez voir les LEDs vertes clignoter pendant la recharge.</string>
+    <string name="help_title_3">Mi-Fit a été appairé avec un autre téléphone ?</string>
+    <string name="help_info_3">"Si votre Mi-Fit est déjà appairé avec un téléphone ou qu'il n'est pas près de votre téléphone, éteignez le Bluetooth de l'ancien téléphone et relancer la recherche avec le nouveau téléphone à appairer."</string>
     <string name="help_title_4">Essayez de réinitialiser votre téléphone.</string>
-    <string name="help_info_4">Ouvrir app Mi-Band après réinitialisation de votre téléphone</string>
+    <string name="help_info_4">Ouvrir app Mi-Fit après réinitialisation de votre téléphone</string>
     <string name="get_image_file_fail">"Impossible d'obtenir l'image"</string>
     <string name="select_image">Editer avatar</string>
     <string name="select_from_camera">Caméra</string>
@@ -252,18 +255,18 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="retry">Refaire</string>
     <string name="fw_failed_help_title">F.A.Q du firmware</string>
     <string name="fw_failed_help_title0">"Qu'est-ce que le firmware ?"</string>
-    <string name="fw_failed_help_tips0">Le firmware est le micro-logiciel embarqué dans le Mi-Band, en charge de son bon fonctionnement.</string>
+    <string name="fw_failed_help_tips0">Le firmware est le micro-logiciel embarqué dans le Mi-Fit, en charge de son bon fonctionnement.</string>
     <string name="fw_failed_help_title1">Pourquoi dois-je mettre à jour le firmware ?</string>
-    <string name="fw_failed_help_tips1">"Les mises à jour du firmware peuvent optimiser le fonctionnement du Mi-Band, mais aussi apporter de nouvelles fonctionnalités à celui-ci. Un firmware qui n'est pas à jour peut causer le dysfonctionnement de certaines fonctionnalités du Mi-Band."</string>
+    <string name="fw_failed_help_tips1">"Les mises à jour du firmware peuvent optimiser le fonctionnement du Mi-Fit, mais aussi apporter de nouvelles fonctionnalités à celui-ci. Un firmware qui n'est pas à jour peut causer le dysfonctionnement de certaines fonctionnalités du Mi-Fit."</string>
     <string name="fw_failed_help_title2">"Que faire si je n'arrive pas à mettre à jour le firmware ?"</string>
-    <string name="fw_failed_help_tips2">"Premièrement, assurez-vous que l'alimentation de Mi-Band n'est pas inférieure à 5%, et que le Mi-Band est correctement connecté à votre téléphone pendant la mise à jour."</string>
+    <string name="fw_failed_help_tips2">"Premièrement, assurez-vous que l'alimentation de Mi-Fit n'est pas inférieure à 5%, et que le Mi-Fit est correctement connecté à votre téléphone pendant la mise à jour."</string>
     <string name="clock_closed">Désactiver</string>
     <string name="new_version_available">Nouvelle version est disponible</string>
-    <string name="downloading_apk">Mi-Band</string>
+    <string name="downloading_apk">Mi-Fit</string>
     <string name="upgrade">Mise à jour</string>
     <string name="download_failed">"Impossible de télécharger l'APK."</string>
     <string name="start_download">Téléchargement en tâche de fond...</string>
-    <string name="apk_download_ok">"Téléchargement complet de l'app Mi-Band."</string>
+    <string name="apk_download_ok">"Téléchargement complet de l'app Mi-Fit."</string>
     <string name="bracelet_login_info_2">"Connectez-vous si vous êtes d'accord avec la 
 "</string>
     <string name="please_input_gender">Sélectionnez un genre</string>
@@ -273,10 +276,12 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="apk_uptodate">Vous utilisez actuellement la dernière version.</string>
     <string name="local_app_failed">Impossible de récupérer les informations de la version déjà installée</string>
     <string name="checking_new_apk">Recherche de nouvelles mises à jour...</string>
-    <string name="please_knock_bracelet">Sélectionnez votre Mi-Band à appairer</string>
+    <string name="please_knock_bracelet">Sélectionnez votre Mi-Fit à appairer</string>
     <string name="dynamic_title_sleep">Dernière nuit</string>
     <string name="dynamic_title_step">"Aujourd'hui"</string>
     <string name="dynamic_title_weight">Poids</string>
+    <string name="dynamic_title_bracelet_unbind">Mi-Fit non apparié</string>
+    <string name="dynamic_title_weight_unbind">未绑定体重秤</string>
     <string name="dynamic_step_tip">Mesures actuelles</string>
     <string name="dynamic_sleep_tip">Total</string>
     <string name="dynamic_sleep_deep_title">Sommeil profond %s</string>
@@ -302,7 +307,7 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="dynamic_detail_modify_sleep_end_time">Temps réveillé correct</string>
     <string name="time_format_hour_min">%1$s h %2$s m</string>
     <string name="time_format_min">%s min</string>
-    <string name="action_pop_my_bracelet">Paramètres Mi-Band</string>
+    <string name="action_pop_my_bracelet">Paramètres Mi-Fit</string>
     <string name="action_pop_smart_alarms">Alarme</string>
     <string name="action_pop_person_info">Mon Profil</string>
     <string name="action_pop_unlock_screen">"Déverrouillage de l'écran"</string>
@@ -312,7 +317,7 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="start_weixin">Ouvrir Wechat</string>
     <string name="start_weixin_not_installed">Démarrer WeChat (non installé)</string>
     <string name="action_pop_about">A propos</string>
-    <string name="find_bracelet">Recherche Mi-Band</string>
+    <string name="find_bracelet">Recherche Mi-Fit</string>
     <string name="light_color">Couleur des LEDs</string>
     <string name="light_color_title">"Couleur de l'indicateur de progression"</string>
     <string name="wear_hand">Poignet</string>
@@ -337,19 +342,19 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="your_gender">Sexe</string>
     <string name="donot_bind">Appairer plus tard</string>
     <string name="welcom_back">Bienvenue</string>
-    <string name="bracelet_not_connected_bat_unknown">Mi-Band non appairé, autonomie inconnue.</string>
+    <string name="bracelet_not_connected_bat_unknown">Mi-Fit non appairé, autonomie inconnue.</string>
     <string name="am">AM</string>
     <string name="pm">PM</string>
     <string name="week" />
     <string name="alarm_ring">Alarme</string>
     <string name="alarm_repeat">Répétez</string>
     <string name="alarm_repeat_title_format">Sélectionné %s</string>
-    <string name="alarm_device_not_connect">"Veuillez relier un Mi-Band avant de régler l'alarme."</string>
-    <string name="unlock_screen_not_connect">"Veuillez appairer un Mi-Band avant de régler le déverrouillage de l'écran."</string>
+    <string name="alarm_device_not_connect">"Veuillez relier un Mi-Fit avant de régler l'alarme."</string>
+    <string name="unlock_screen_not_connect">"Veuillez appairer un Mi-Fit avant de régler le déverrouillage de l'écran."</string>
     <string name="unlock_screen_help_tips">Encore deux étapes avant de découvrir le moyen le plus rapide et le plus sûr pour déverrouiller votre téléphone.</string>
     <string name="weared_days">Nombre total de jours</string>
-    <string name="look_device_list">Rechercher un Mi-Band à proximité</string>
-    <string name="device_list">Mi-Band à proximité</string>
+    <string name="look_device_list">Rechercher un Mi-Fit à proximité</string>
+    <string name="device_list">Mi-Fit à proximité</string>
     <string name="unbinding">Dissociation ...</string>
     <string name="share_sleep_title">Nuit dernière</string>
     <string name="share_sleep_title_average">Sommeil moy.</string>
@@ -390,23 +395,21 @@ Endormi : %5$s. Réveil : %6$s"</string>
 Vous vous êtes couché aux alentours de %5$s, l'heure de réveil moyenne est %6$s."</string>
     <string name="smart_alarm_notify">Alarme intelligente</string>
     <string name="battery_charge_full">Batterie chargée</string>
-    <string name="battery_low_info">Batterie Mi-Band faible</string>
+    <string name="battery_low_info">Batterie Mi-Fit faible</string>
     <string name="battery_charging">Chargement...</string>
-    <string name="finding_bracelet">Recherche Mi-Band ...</string>
+    <string name="finding_bracelet">Recherche Mi-Fit ...</string>
     <string name="unlock_screen_set_password_tips_set">"Définir le mot de passe de l'écran de verrouillage"</string>
     <string name="unlock_screen_set_password_tips_has_set">"Le mot de passe de l'écran de verrouillage a été correctement configuré."</string>
     <string name="unlock_screen_set_password">Étape 1: Définir votre mot de passe.</string>
     <string name="unlock_screen_set_use_bracelet_tips">Confirmez le mot de passe.</string>
-    <string name="unlock_screen_set_use_bracelet">Étape 2: Définir pour déverrouiller votre téléphone avec Mi-Band.</string>
-    <string name="unlock_screen_set_success">Vous avez configuré votre téléphone pour le déverrouiller avec ce Mi-Band.</string>
-    <string name="unlock_screen_modify_unlock_v5">"Vous voulez effectuer un changement
-ouvrir Réglages->Sécurité."</string>
-    <string name="unlock_screen_modify_unlock_v6">"Vous voulez effectuer un changement
-Paramètres -> écran de verrouillage et mot de passe -> Périphérique Bluetooth"</string>
-    <string name="unlock_for_smartlock_tip">Utilisez le Mi-Band pour débloquer l\'application en cours d\'exécution en arrière-plan</string>
+    <string name="unlock_screen_set_use_bracelet">Étape 2: Définir pour déverrouiller votre téléphone avec Mi-Fit.</string>
+    <string name="unlock_screen_set_success">Vous avez configuré votre téléphone pour le déverrouiller avec ce Mi-Fit.</string>
+    <string name="unlock_screen_modify_unlock_v5">Vous pouvez désactiver cette fonctionnalité à tout moment dans Paramètres> Sécurité > Sécurité de l\'écran</string>
+    <string name="unlock_screen_modify_unlock_v6">Vous pouvez désactiver cette fonctionnalité à tout moment dans Paramètres> Ecran de verrouillage> Déverrouiller avec le dispositif Bluetooth</string>
+    <string name="unlock_for_smartlock_tip">Utilisez le Mi-Fit pour débloquer l\'application en cours d\'exécution en arrière-plan</string>
     <string name="unlock_for_smartlock_tip_step1">Étape 1: Aller à dans <b>Paramètres système</b> - <b> Sécurité</b></string>
     <string name="unlock_for_smartlock_tip_step2">Étape 2: Définir le <b>Mode de verrouillage de l\'écran</b> avec un schéma, un code PIN ou mot de passe</string>
-    <string name="unlock_for_smartlock_tip_step3">Étape 3: Cliquez sur <b>Smart Lock</b> déverrouillage utilisant le Mi-Band</string>
+    <string name="unlock_for_smartlock_tip_step3">Étape 3: Cliquez sur <b>Smart Lock</b> déverrouillage utilisant le Mi-Fit</string>
     <string name="unlock_for_smartlock_pair_start_tip">Appairage en cours, s\'il vous plaît patientez...</string>
     <string name="unlock_for_smartlock_pair_success_tip">Succès de l\'appairage, Smart Lock disponible</string>
     <string name="unlock_for_smartlock_pair_fail_tip">Échec de l\'appairage, s\'il vous plaît patientez</string>
@@ -426,22 +429,24 @@ Paramètres -> écran de verrouillage et mot de passe -> Périphérique Bluetoot
     <string name="share_step_walk" />
     <string name="one_week">Au cours de cette semaine, </string>
     <string name="walked">Marché </string>
-    <string name="come_from_xiaomi_bracelet">A partir du Mi-Band</string>
+    <string name="come_from_xiaomi_bracelet">A partir du Mi-Fit</string>
     <string name="unlock_screen_invalid">Que puis-je faire si je ne suis pas en mesure de déverrouiller mon téléphone ?</string>
-    <string name="unlock_screen_help_title0">Le Mi-Band est-il suffisamment près de votre téléphone ?</string>
+    <string name="unlock_screen_help_title0">Le Mi-Fit est-il suffisamment près de votre téléphone ?</string>
     <string name="unlock_screen_help_title1">Essayez de redémarrer le Bluetooth.</string>
-    <string name="unlock_screen_help_title2">Essayez de réinitialiser le déverrouillage.</string>
-    <string name="unlock_screen_help_info0">"Pour une question de sécurité, le déverrouillage ne s'opère que quand le Mi-Band est suffisamment près du téléphone."</string>
+    <string name="unlock_screen_help_title2">Essayez de réinitialiser le déverrouillage</string>
+    <string name="unlock_screen_help_title3">Redémarrez et essayez à nouveau</string>
+    <string name="unlock_screen_help_info3">Après le redémarrage de votre appareil, essayez d\'utiliser votre Mi-Fit pour le déverrouiller</string>
+    <string name="unlock_screen_help_info0">"Pour une question de sécurité, le déverrouillage ne s'opère que quand le Mi-Fit est suffisamment près du téléphone."</string>
     <string name="unlock_screen_help_info1">Si votre téléphone est toujours verrouillé, vous pouvez essayer de redémarrer le Bluetooth pour résoudre le problème.</string>
-    <string name="unlock_screen_help_info2">"Si vous ne parvenez pas à redémarrer le Bluetooth, veuillez-vous rendre dans Paramètres Système->Sécurité pour dissocier le Mi-Band. Ensuite, rendez-vous dans l'application du Mi-Band pour réinitialiser le déverrouillage de l'écran."</string>
-    <string name="instruction_title">Mieux utiliser son Mi-Band</string>
+    <string name="unlock_screen_help_info2">"Si vous ne parvenez pas à redémarrer le Bluetooth, veuillez-vous rendre dans Paramètres Système->Sécurité pour dissocier le Mi-Fit. Ensuite, rendez-vous dans l'application du Mi-Fit pour réinitialiser le déverrouillage de l'écran."</string>
+    <string name="instruction_title">Mieux utiliser son Mi-Fit</string>
     <string name="instruction_tip_1">"Jetez un coup d'œil sur votre progression"</string>
     <string name="instruction_tip_2_1">"Moins d'1/3 de votre objectif"</string>
     <string name="instruction_tip_2_2">"Plus d'1/3 de votre objectif"</string>
     <string name="instruction_tip_2_3">Plus de 2/3 de votre objectif</string>
     <string name="instruction_tip_2_4">Bravo ! Vous avez atteint votre objectif de la journée</string>
     <string name="instruction_tip_2_5">Vous avez dépassé votre objectif</string>
-    <string name="instruction_tip_3">"S'il vous plaît recharger Mi-Band"</string>
+    <string name="instruction_tip_3">"S'il vous plaît recharger Mi-Fit"</string>
     <string name="new_record_born">Bravo ! Vous avez établi un nouveau record</string>
     <string name="new_record_format_str">"%1$s pas, %2$s calories brûlées
 Chaque nouveau record n'est qu'une étape
@@ -450,7 +455,7 @@ Il faut garder le rythme"</string>
     <string name="continue_tips_format">"Votre plus beau record serait d'atteindre votre objectif pendant %1$s jour(s)."</string>
     <string name="gram">" g "</string>
     <string name="sync_to_server">Synchro des données sur le Cloud en cours ...</string>
-    <string name="unlock_screen_miui_version_low">"Votre version de MIUI n'est pas supporté par le Mi-Band, veuillez mettre à jour votre version."</string>
+    <string name="unlock_screen_miui_version_low">"Votre version de MIUI n'est pas supporté par le Mi-Fit, veuillez mettre à jour votre version."</string>
     <string name="share_uninstall_client">"L'application n'a pas été installée, impossible de partager"</string>
     <string name="setting_feedback_send">Envoyer</string>
     <string name="setting_feedback_hint">Nous aimons vos commentaires.</string>
@@ -461,22 +466,22 @@ Il faut garder le rythme"</string>
 Traduction par Fays et Boleofr"</string>
     <string name="stop">Fin</string>
     <string name="start">Début</string>
-    <string name="no_wear_bracelet">"Vous n'avez pas porter votre Mi-Band la nuit dernière"</string>
+    <string name="no_wear_bracelet">"Vous n'avez pas porter votre Mi-Fit la nuit dernière"</string>
     <string name="no_steps">Pas d\'info de pas aujourd\'hui</string>
     <string name="no_wear_user_modified">Ajouter manuellement les données sur mon sommeil</string>
     <string name="dynamic_pull_connect_failed">Connexion échouée, tirez pour réessayer</string>
-    <string name="dynamic_pull_connect_failed_hint">Veuillez vérifier que votre Mi-Band soit assez chargé.</string>
+    <string name="dynamic_pull_connect_failed_hint">Veuillez vérifier que votre Mi-Fit soit assez chargé.</string>
     <string name="dynamic_pull_not_sync_today">"Non synchro aujourd'hui"</string>
     <string name="dynamic_pull_last_sync_time">Dernière synchro %s</string>
-    <string name="dynamic_pull_connecting_bracelet">Connexion au Mi-Band ...</string>
-    <string name="dynamic_pull_sync_after_connected">Récupération des informations de votre Mi-Band</string>
+    <string name="dynamic_pull_connecting_bracelet">Connexion au Mi-Fit ...</string>
+    <string name="dynamic_pull_sync_after_connected">Récupération des informations de votre Mi-Fit</string>
     <string name="dynamic_pull_syncing">Synchronisation ...</string>
     <string name="dynamic_pull_syncing_progress">Synchronisé (%s%%)</string>
     <string name="dynamic_pull_release_to_sync">Relâchez pour synchroniser</string>
     <string name="dynamic_pull_pull_to_sync">Tirez pour synchroniser</string>
     <string name="dynamic_pull_sync_error">Impossible de synchroniser, tirez pour rafraîchir.</string>
-    <string name="bind_weixin_qrcode_name">QR code du Mi-Band</string>
-    <string name="mili_exit_login_info_unbind">Êtes-vous sur de vouloir quitter ? Le Mi-Band sera déconnecté de votre téléphone</string>
+    <string name="bind_weixin_qrcode_name">QR code du Mi-Fit</string>
+    <string name="mili_exit_login_info_unbind">Êtes-vous sur de vouloir quitter ? Le Mi-Fit sera déconnecté de votre téléphone</string>
     <string name="mili_exit_login_info_unlock">"La fonctionnalité de déverrouillage de l'écran ne sera plus opérationnelle"</string>
     <string name="mili_exit_login_info_continue_tip">Êtes-vous sûr de vouloir continuer ?</string>
     <string name="mili_exit_login_info_exiting">Déconnexion ...</string>
@@ -484,7 +489,7 @@ Traduction par Fays et Boleofr"</string>
     <string name="enable_debug_log">Mode de débogage activé ！</string>
     <string name="disable_debug_log">Mode de débogage fermé ！</string>
     <string name="fw_upgrade">Mise à jour du firmware</string>
-    <string name="fw_upgrade_tips">Assurez-vous que votre Mi-Band reste à proximité de votre téléphone pendant la mise à jour.</string>
+    <string name="fw_upgrade_tips">Assurez-vous que votre Mi-Fit reste à proximité de votre téléphone pendant la mise à jour.</string>
     <string name="fw_upgrade_progress">Completé %s%%</string>
     <string name="runed">Couru</string>
     <string name="share_to_miliao_path">Partager via</string>
@@ -494,13 +499,13 @@ Traduction par Fays et Boleofr"</string>
     <string name="no_network_connection">Déconnecté du réseau</string>
     <string name="no_network_connection_retry">Cliquez pour vous reconnecter.</string>
     <string name="gen_qr_code">Générer un QR code</string>
-    <string name="bin_weixin_device_not_connect">Mi-Band non connecté</string>
+    <string name="bin_weixin_device_not_connect">Mi-Fit non connecté</string>
     <string name="share_to_content_sleep">Mes infos sur mon sommeil</string>
     <string name="share_to_content_step">"Mes infos d'activité"</string>
-    <string name="share_to_topic">\#Mi-Band#</string>
+    <string name="share_to_topic">\#Mi-Fit#</string>
     <string name="month" />
     <string name="year" />
-    <string name="find_bracelet_warning">"L'autonomie sera vite réduite en recherchant votre Mi-Band.."</string>
+    <string name="find_bracelet_warning">"L'autonomie sera vite réduite en recherchant votre Mi-Fit.."</string>
     <string name="second">" secondes"</string>
     <string name="move_and_capture">Déplacer et capturé</string>
     <string name="share_miliao_too_old">Votre version de Mi-Talk est trop ancienne.</string>
@@ -513,7 +518,7 @@ vous aurez besoin d'être connecté à Internet."</string>
     <string name="bind_weixin_new_tips">"Appuyez sur Lier avec WeChat pour commencer, 
 puis appuyez sur suivant pour compléter la synchronisation."</string>
     <string name="bind_weixin_new_now">Synchro avec WeChat, un moment...</string>
-    <string name="bind_weixin_new_disable_tips">Après avoir relié votre compte WeChat et suivi le compte Mi-Band WeChat service, vous pourrez vérifier les informations comme le nombre de pas à travers WeChat. Vous pourrez ainsi comparer vos performances avec vos amis.</string>
+    <string name="bind_weixin_new_disable_tips">Après avoir relié votre compte WeChat et suivi le compte Mi-Fit WeChat service, vous pourrez vérifier les informations comme le nombre de pas à travers WeChat. Vous pourrez ainsi comparer vos performances avec vos amis.</string>
     <string name="weather_aqi">"Qualité de l'air %s"</string>
     <string name="weather_description_rain">Pluvieux,</string>
     <string name="weather_description_rain_snow">Neige,</string>
@@ -524,8 +529,8 @@ puis appuyez sur suivant pour compléter la synchronisation."</string>
     <string name="weather_description_overcast">Couvert,</string>
     <string name="weather_description_fog">Brouillard,</string>
     <string name="weather_description_haze">Brume,</string>
-    <string name="fw_low_battery_title">Veuillez recharger le Mi-Band pendant la mise à jour.</string>
-    <string name="fw_low_battery_tips">La batterie du Mi-Band doit être supérieure à 10% afin d\'effectuer la mise à jour</string>
+    <string name="fw_low_battery_title">Veuillez recharger le Mi-Fit pendant la mise à jour.</string>
+    <string name="fw_low_battery_tips">La batterie du Mi-Fit doit être supérieure à 10% afin d\'effectuer la mise à jour</string>
     <string name="fw_low_battery_view_help">Aide</string>
     <string name="in">En </string>
     <string name="main_ui_share_tips">"Activité pendant %1$s%2$s aujourd'hui
@@ -538,20 +543,20 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="discard">Retirer</string>
     <string name="discard_alarm_change">Annuler les changements ?</string>
     <string name="notify_status_motor" />
-    <string name="notify_status_motor_notify">Vous recherchez le Mi-Band...</string>
+    <string name="notify_status_motor_notify">Vous recherchez le Mi-Fit...</string>
     <string name="notify_status_motor_call">Vous avez une notification...</string>
-    <string name="notify_status_motor_disconnect">Déconnexion du Mi-Band...</string>
+    <string name="notify_status_motor_disconnect">Déconnexion du Mi-Fit...</string>
     <string name="notify_status_motor_smart_alarm">Alarme intelligente sonne...</string>
     <string name="notify_status_motor_alarm">Alarme sonne...</string>
     <string name="notify_status_motor_goal">Vous avez atteint votre objectif !</string>
-    <string name="notify_status_motor_auth">Mi-Band détecté</string>
-    <string name="notify_status_motor_shut_down">"Mi-Band est en cours d'arrêt..."</string>
+    <string name="notify_status_motor_auth">Mi-Fit détecté</string>
+    <string name="notify_status_motor_shut_down">"Mi-Fit est en cours d'arrêt..."</string>
     <string name="notify_status_motor_auth_success">Mi-band fonctionnel...</string>
     <string name="notify_status_motor_test">Analyse...</string>
     <string name="vibrate_notify">Afficher les notifications</string>
     <string name="vibrate_notify_tips">Vous affichez une notification en plus de la vibration</string>
     <string name="body">Nuque</string>
-    <string name="wrong_system_time">Votre horloge est mal réglée. Cela effectue le Mi-Band..</string>
+    <string name="wrong_system_time">Votre horloge est mal réglée. Cela effectue le Mi-Fit..</string>
     <string name="restart_bluetooth_tips">"S'il vous plaît redémarrez le Bluetooth."</string>
     <string name="agree">Accepter</string>
     <string name="user_agreement_prefix">"Pour utiliser ce produit, vous devez accepter notre
@@ -568,7 +573,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="weight_dynamic_detail">%1$s</string>
     <string name="weight_guest">Invité</string>
     <string name="bind_devices">Appareils lier</string>
-    <string name="bind_mi_band">Mi-Band lier</string>
+    <string name="bind_mi_band">Mi-Fit lier</string>
     <string name="bind_mi_weight">Balance lier</string>
     <string name="bind_mi_band_about"><Data>&lt;a href=http://www.mi.com>View Mi Bind Website&lt;/a></Data></string>
     <string name="bind_mi_weight_about"><Data>&lt;a href=http://www.mi.com>View Mi Weight Scale Website&lt;/a></Data></string>
@@ -580,7 +585,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="set_unit">"Définir l'unité"</string>
     <string name="weight_unbinded">Dissocier la balance</string>
     <string name="weight_scale">Balance</string>
-    <string name="band">Mi-Band</string>
+    <string name="band">Mi-Fit</string>
     <string name="bind_weight_scale">Associer la balance</string>
     <string name="unbind_weight_scale">Unbind weight scale ?</string>
     <string name="weight_fw_upgrade_tips">升级中保持手机靠近体重秤</string>
@@ -620,7 +625,8 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="weight_not_response">Weight Scale not response</string>
     <string name="bind_weight_ok">Bind Weight Scale OK.</string>
     <string name="weight_history_dynamic_title">成功同步%1$s条历史体重数据</string>
-    <string name="weight_history_dynamic_detail">同步了%1$s到%2$s的数据</string>
+    <string name="weight_history_dynamic_detail">同步了%1$s至%2$s的数据</string>
+    <string name="weight_history_dynamic_detail_oneday">同步了%1$s的数据</string>
     <string name="share_weibo_label">Weibo</string>
     <string name="share_pengyouquan_label">Moments</string>
     <string name="share_weixin_label">WeChat</string>
@@ -634,19 +640,19 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="health_care_date_limit">Période de service: année gratuite</string>
     <string name="health_care_country_limit">Région: Chine continentale</string>
     <string name="service_call_notice">Appelez au téléphone 24 heures, l\'accès aux services</string>
-    <string name="notice_for_users">Utilisateur Mi-Band exclusif</string>
+    <string name="notice_for_users">Utilisateur Mi-Fit exclusif</string>
     <string name="health_provider_desc">Services de santé</string>
     <string name="connected_broadcast">BLE diffusion</string>
     <string name="connected_broadcast_tips">Assurez-vous que les bracelets peuvent être trouvés par d\'autres appareils</string>
     <string name="connected_broadcast_disconnect_tips">Connectez le bracelet, puis réglez</string>
-    <string name="donot_have_band">Avez-vous un Mi-Band ?</string>
+    <string name="donot_have_band">Avez-vous un Mi-Fit ?</string>
     <string name="sensor_hub_tip">"Podomètre du téléphone affiché par coprocesseur interne du téléphone
  Données de mouvement (Capteur Hub)
  Ces données sont utilisées seulement à titre de référence, non enregistré dans Mi-Cloud</string>
     <string name="incomingcall_info_1">Cette notification à besoin que l\'app fonctionne en arrière-plan</string>
-    <string name="incomingcall_info_2">"Verrouiller l'application Mi-Band et 
+    <string name="incomingcall_info_2">"Verrouiller l'application Mi-Fit et 
 ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</string>
-    <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Band à la liste blanche du gestionnaire externes si elle existe</string>
+    <string name="incomingcall_info_3">S\'il vous plaît ajouter Mi-Fit à la liste blanche du gestionnaire externes si elle existe</string>
     <string name="incoming_call_notify_closed">Appel entrant, notification fermé</string>
     <string name="title_activity_weight_tips">Poids Conseils Activité</string>
     <string name="hello_world">Bonjour !</string>
@@ -667,6 +673,18 @@ Please get off after the LED blinked."</string>
     <string name="select_devices_info">S\'il vous plaît sélectionnez Périphériques Mi à lier</string>
     <string name="weight_settings_merge_title">合并频繁称重记录</string>
     <string name="weight_settings_merge_tips">同一成员两次称重间隔30秒内，覆盖前一条记录</string>
+    <string name="not_fount_available_userinfo">未能找到合适成员</string>
+    <string name="choose_userinfo_for_weight">为本次称重选个主人吧</string>
+    <string name="visitor">visiteurs</string>
+    <string name="new_user">nouveaux membres</string>
+    <string name="set_goal_weight_tips">根据你提供的身体信息，我们通过BMI指数计算得出你的标准体重区间为%1$s-%2$s%3$s</string>
+    <string name="set_weight_goal">Fixer des objectifs de poids</string>
+    <string name="set_weight_goal_yes">Fixer des objectifs</string>
+    <string name="set_weight_goal_no">Non défini</string>
+    <string name="weight_tip_bmi_name">什么是BMI</string>
+    <string name="weight_tip_bmi_content">BMI是Body Mass Index的缩写,表示身体质量的指数。国际上广泛使用,因为和身体中所含脂肪量有很大关系,BMI是体重(公斤)除以身高(米)的二次方的值。</string>
+    <string name="weight_tip_fat_name">单看BMI值不能判定虚胖</string>
+    <string name="weight_tip_fat_content">BMI是从身高和体重计算的值,为简单判定肥胖度的标准,即使是标准体重,也存在脂肪多的\"虚胖\"。因此体重变化时确认是肌肉还是脂肪增加是很重要的。</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
@@ -674,7 +692,7 @@ Please get off after the LED blinked."</string>
     <string name="lab_factory_exercise_state_ready">GO</string>
     <string name="lab_factory_exercise_state_paused">Pause</string>
     <string name="lab_factory_exercise_state_stopped">Stop</string>
-    <string name="lab_factory_sport_monitor_bracelet_offline">"Mi-Band n'est pas connecté"</string>
+    <string name="lab_factory_sport_monitor_bracelet_offline">"Mi-Fit n'est pas connecté"</string>
     <string name="lab_factory_sport_monitor_bracelet_offline_notice">Connectez votre bracelet avant de commencer</string>
     <string name="lab_factory_sport_monitor_cancelled_notice">Le capteur va compter %s automatiquement</string>
     <string name="lab_factory_sport_monitor_timeout_notice">"Pas d'activité detectée"</string>
@@ -800,13 +818,13 @@ Please get off after the LED blinked."</string>
     <string name="sport_running_share">Partager</string>
     <string name="sport_running_watermark">Filigrane</string>
     <string name="sport_ranking_desc_poor">%s des utilisateurs peuvent vous battre, allez !</string>
-    <string name="sport_ranking_desc_normal" formatted="false">Vous avez battu &lt;b>%s&lt;/b> Mi-Band %s utilisateurs.</string>
+    <string name="sport_ranking_desc_normal" formatted="false">Vous avez battu &lt;b>%s&lt;/b> Mi-Fit %s utilisateurs.</string>
     <string name="sport_ranking_desc_great">"WOW, vous êtes imbattable aujourd'hui!"</string>
     <string name="sport_new_record_ropeskipping">Nouveau record</string>
     <string name="percent_mark">%</string>
-    <string name="share_step_ranking">Vous dépassez &lt;b>%s&lt;/b> des utilisateurs du Mi-Band</string>
-    <string name="buy_bracelet_desc">Acheter un Mi-Band.</string>
-    <string name="bracelet_store_desc">Magasin Mi-Band</string>
+    <string name="share_step_ranking">Vous dépassez &lt;b>%s&lt;/b> des utilisateurs du Mi-Fit</string>
+    <string name="buy_bracelet_desc">Acheter un Mi-Fit.</string>
+    <string name="bracelet_store_desc">Magasin Mi-Fit</string>
     <string name="title_activity_open">Partner Bind Page</string>
     <string name="state_deauthorization_success">"Retirer l'autorisation avec succèss !"</string>
     <string name="state_deauthorization_doing">"Suspendre l'autorisation ..."</string>
@@ -823,7 +841,7 @@ Please get off after the LED blinked."</string>
     <string name="btn_continue">Non</string>
     <string name="running_short_track_desc">"Vous venez d'avancer de %d mètres. Êtes-vous sûr de l'annuler ?"</string>
     <string name="running_no_track_desc">"Vous ne vous êtes pas assez déplacé. Êtes-vous sûr de l'annuler ?"</string>
-    <string name="running_set_pace_desc">Mi-Band se met à vibrer si votre rythme est plus lent que les paramètres</string>
+    <string name="running_set_pace_desc">Mi-Fit se met à vibrer si votre rythme est plus lent que les paramètres</string>
     <string name="running_gps_poor_signal">Signal GPS pauvres. S\'il vous plaît déplacez vous quelque part sans abri.</string>
     <string name="sport_running_cal_with_unit">Brûlées(cal)</string>
     <string name="sport_running_cal_desc">Brûlées</string>
@@ -839,11 +857,11 @@ Please get off after the LED blinked."</string>
     <string name="sport_running_failed_to_get_history_neterror">Erreur réseau</string>
     <string name="sport_running_get_history_no_more_data">Aucune données</string>
     <string name="sport_running_delete_track_item_confirm">"Êtes-vous sûr de vouloir supprimer cet album ? Il ne peut pas être restaurée après la suppression"</string>
-    <string name="sport_running_backgroud_notification">Course...,go go</string>
+    <string name="sport_running_backgroud_notification">Course...,Allez</string>
     <string name="watermark_search_location">\#Chargement de votre Localisation#</string>
     <string name="watermark_btn_confirm">Confirmer</string>
-    <string name="watermark_guide_tips">Appuyez longuement pour déplacer</string>
-    <string name="no_bracelet_tips">(Disponible uniquement lorsque le Mi-Band et connecté)</string>
+    <string name="watermark_guide_tips">Appuyez pour déplacer</string>
+    <string name="no_bracelet_tips">(Disponible uniquement lorsque le Mi-Fit et connecté)</string>
     <string name="action_mark">Comportement de marquage</string>
     <string name="action_sleep">Sommeil</string>
     <string name="action_bath">Bain</string>
@@ -885,7 +903,7 @@ Please get off after the LED blinked."</string>
     <string name="friends_search">Rechercher</string>
     <string name="friends_search_tips">ID MIUI / surnom / numéro de téléphone</string>
     <string name="lab_factory_sport_attention_punish_cheating"><font color="#ff0000">Oh ! Vous pouvez tricher, mais attention au châtiment ultime. Le groupe sera déçu. On vous surveille !</font></string>
-    <string name="noti_bracelet_low_battery_title_none">"Le Mi-Band s'est arrêté."</string>
+    <string name="noti_bracelet_low_battery_title_none">"Le Mi-Fit s'est arrêté."</string>
     <string name="point">point(s)</string>
     <string name="points_exchange">Échangez vos points produit</string>
     <string name="start_use">"Début d'utilisation"</string>
