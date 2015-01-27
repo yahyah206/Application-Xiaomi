@@ -280,7 +280,7 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="dynamic_title_sleep">Dernière nuit</string>
     <string name="dynamic_title_step">"Aujourd'hui"</string>
     <string name="dynamic_title_weight">Poids</string>
-    <string name="dynamic_title_bracelet_unbind">Mi-Fit non apparié</string>
+    <string name="dynamic_title_bracelet_unbind">Mi-Fit non apparé</string>
     <string name="dynamic_title_weight_unbind">未绑定体重秤</string>
     <string name="dynamic_step_tip">Mesures actuelles</string>
     <string name="dynamic_sleep_tip">Total</string>
@@ -575,8 +575,8 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="bind_devices">Appareils lier</string>
     <string name="bind_mi_band">Mi-Fit lier</string>
     <string name="bind_mi_weight">Balance lier</string>
-    <string name="bind_mi_band_about"><Data>&lt;a href=http://www.mi.com>View Mi Bind Website&lt;/a></Data></string>
-    <string name="bind_mi_weight_about"><Data>&lt;a href=http://www.mi.com>View Mi Weight Scale Website&lt;/a></Data></string>
+    <string name="bind_mi_band_about"><Data>&lt;a href=http://www.mi.com>Voir Mi-Fit Site&lt;/a></Data></string>
+    <string name="bind_mi_weight_about"><Data>&lt;a href=http://www.mi.com>Voir Mi-Balance Site&lt;/a></Data></string>
     <string name="bind_mi_weight_howto">Échelles</string>
     <string name="read_useragreement">"J'ai lu l'accord de l'utilisateur et politique de confidentialité"</string>
     <string name="search_weight_scale">Recherche du poids</string>
