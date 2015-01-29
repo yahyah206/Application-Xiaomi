@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="Firmware Mi-Band" android:key="bracelet_info_fw" android:summary="@string/bracelet_info_fw_version" />
-    <Preference android:title="Bluetooth Mi-Band" android:key="bracelet_info_bt" android:summary="@string/bracelet_info_mac_address" />
-    <Preference android:title="Puissance Mi-Band" android:key="bracelet_info_battery" android:summary="@string/bracelet_info_battery" />
-    <Preference android:title="ID Mi-Band" android:key="bracelet_info_deviceid" android:summary="@string/bracelet_info_deviceid" />
-    <Preference android:title="Réinitialiser Mi-Band" android:key="bracelet_info_reset" android:summary="Effacer le dossier des sports et les renseignements personnels liés à ce bracelet" />
+    <Preference android:title="Firmware Mi-Fit" android:key="bracelet_info_fw" android:summary="@string/bracelet_info_fw_version" />
+    <Preference android:title="Bluetooth Mi-Fit" android:key="bracelet_info_bt" android:summary="@string/bracelet_info_mac_address" />
+    <Preference android:title="Puissance Mi-Fit" android:key="bracelet_info_battery" android:summary="@string/bracelet_info_battery" />
+    <Preference android:title="ID Mi-Fit" android:key="bracelet_info_deviceid" android:summary="@string/bracelet_info_deviceid" />
+    <Preference android:title="Réinitialiser Mi-Fit" android:key="bracelet_info_reset" android:summary="Effacer le dossier des sports et les renseignements personnels liés à ce bracelet" />
     <Preference android:title="Assistant version" android:key="app_info_version" android:summary="@string/app_info_version" />
     <Preference android:title="Effacer assistant données" android:key="app_info_clear" android:summary="Effacer les données liées au sport, les informations de connexion et de configuration" />
     <Preference android:title="Définir la vitesse de connexion" android:key="bracelet_info_set_desired_latency" android:summary="Haute, moyenne ou faible latence de transmission, plus la latence est lente, la vitesse de transfert est supérieure" />
