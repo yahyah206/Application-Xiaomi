@@ -615,7 +615,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="weight_report_suggest">Recommandation:</string>
     <string name="weight_report_user_info_header">Rapport sur la mesure %1$s</string>
     <string name="weight_help_title_0">Votre Balance est-elle trop loin ?</string>
-    <string name="weight_help_info_0">Assurez-vous que la Balance est proche de votre appareil tout au long du processus d'appairage.</string>
+    <string name="weight_help_info_0">Assurez-vous que la Balance est proche de votre appareil tout au long du processus d\'appairage.</string>
     <string name="weight_help_title_1">"Vérifiez la batterie de la Balance"</string>
     <string name="weight_help_info_1">"Assurez-vous que la Balance est chargée et ne manque pas de puissance."</string>
     <string name="weight_help_title_2">Redémarrer Bluetooth</string>
@@ -681,14 +681,14 @@ S\'il vous plaît descendez après que la LED clignotex."</string>
     <string name="set_weight_goal">Fixer des objectifs de poids</string>
     <string name="set_weight_goal_yes">Fixer des objectifs</string>
     <string name="set_weight_goal_no">Non défini</string>
-    <string name="weight_tip_bmi_name">Qu'est-ce que l\'IMC ?</string>
-    <string name="weight_tip_bmi_content">MC est l'abréviation de Indice de Masse Corporelle. Utilisation internationale généralisée, car la quantité de graisse contenue dans le corps et ont une excellente relation, l'IMC est le poids corporel (kg) divisé par la taille (en mètres) du côté secondaire.</string>
+    <string name="weight_tip_bmi_name">Qu\'est-ce que l\'IMC ?</string>
+    <string name="weight_tip_bmi_content">MC est l\'abréviation de Indice de Masse Corporelle. Utilisation internationale généralisée, car la quantité de graisse contenue dans le corps et ont une excellente relation, l\'IMC est le poids corporel (kg) divisé par la taille (en mètres) du côté secondaire</string>
     <string name="weight_tip_fat_name">Il suffit de regarder la valeur IMC ne peut être déterminée obèse</string>
-    <string name="weight_tip_fat_content">L'IMC est une valeur calculée à partir taille et le poids, le degré d'obésité avec des critères simples, comme le poids standard, s\'il ya beaucoup de graisse.  Ainsi, les variations de poids corporel ou l'augmentation musculaire confirment l'abondance de graisse.</string>
+    <string name="weight_tip_fat_content">L\'IMC est une valeur calculée à partir taille et le poids, le degré d\'obésité avec des critères simples, comme le poids standard, s\'il ya beaucoup de graisse.  Ainsi, les variations de poids corporel ou l\'augmentation musculaire confirment l\'abondance de graisse</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
-    <string name="lab_factory_sport_analyser_activity_not_found">"Impossible de charger l'interface utilisateur"</string>
+    <string name="lab_factory_sport_analyser_activity_not_found">"Impossible de charger l\'interface utilisateur"</string>
     <string name="lab_factory_exercise_state_ready">GO</string>
     <string name="lab_factory_exercise_state_paused">Pause</string>
     <string name="lab_factory_exercise_state_stopped">Stop</string>
