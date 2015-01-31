@@ -10,7 +10,7 @@
         <include android:id="@id/info_weight" layout="@layout/view_chart_info_item_value" />
     </LinearLayout>
     <LinearLayout style="@style/ChartInfoItem">
-        <TextView android:text="BMI" style="@style/ChartInfoItemTitle" />
+        <TextView android:text="IMC" style="@style/ChartInfoItemTitle" />
         <TextView android:id="@id/info_weight_bmi" android:layout_marginTop="@dimen/dynamic_info_title_value_margin" style="@style/ChartInfoItemValue" />
     </LinearLayout>
 </GridLayout>
