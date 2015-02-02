@@ -74,8 +74,6 @@ Accord: %2$s"</string>
     <string name="noti_bracelet_low_battery_content_high">"La capacité batterie est inférieure à 5%, s'il vous plaît pensez à recharger"</string>
     <string name="noti_bracelet_low_battery_content_mid">Batterie est faible, pensez à recharger</string>
     <string name="noti_bracelet_low_battery_content_low">Vous devez recharger votre batterie</string>
-    <string name="noti_weight_low_battery_title">Batterie est faible</string>
-    <string name="noti_weight_low_battery_content">Initialiser l\'heure du système après le rechargement de la batterie</string>
     <string name="bt_operation_failed_tips">Le Bluetooth ne fonctionne pas correctement, veuillez réessayer</string>
     <string name="multi_devices_info">"Si dans votre voisinage il y a plusieurs Mi-Fit. Tenez votre poignet près du téléphone et éloignez l'autre Mi-Fit de 10 mètres. Après cela, relancez une recherche."</string>
     <string name="multi_devices_title">Trop de périphériques à proximité</string>
@@ -280,8 +278,8 @@ Si vous choisissez de quitter maintenant, les données non synchronisées seront
     <string name="dynamic_title_sleep">Dernière nuit</string>
     <string name="dynamic_title_step">"Aujourd'hui"</string>
     <string name="dynamic_title_weight">Poids</string>
-    <string name="dynamic_title_bracelet_unbind">Mi-Fit non apparé</string>
-    <string name="dynamic_title_weight_unbind">未绑定体重秤</string>
+    <string name="dynamic_title_bracelet_unbind">Mi-Fit non appairé</string>
+    <string name="dynamic_title_weight_unbind">Mi-Balance non appairé</string>
     <string name="dynamic_step_tip">Mesures actuelles</string>
     <string name="dynamic_sleep_tip">Total</string>
     <string name="dynamic_sleep_deep_title">Sommeil profond %s</string>
@@ -567,7 +565,7 @@ Couché à %3$s, réveillé à %4$s"</string>
     <string name="confirm_lazy_day">Considerer comme une journée de farniente ?</string>
     <string name="closed">Aucun</string>
     <string name="birthday">Anniversaire</string>
-    <string name="user_agreement_ux">"Rejoignez le programme d'amélioration UX"</string>
+    <string name="user_agreement_ux">Programme de l\'expérience utilisateur</string>
     <string name="weight_dynamic_title">%1$s %2$s, poids %3$s%4$s</string>
     <string name="weight_dynamic_visitor_title">%1$s poids %2$s%3$s</string>
     <string name="weight_dynamic_detail">%1$s</string>
@@ -668,7 +666,7 @@ ajouter à la liste blanche du gestionnaire 3ème partie si elle existe."</strin
     <string name="weight_delete_confirm_msg">fiche de poids %s ?</string>
     <string name="title_activity_tag_history">Tag Historique Activité</string>
     <string name="weighting_failed">"Poids instable
-S\'il vous plaît descendez après que la LED clignotex."</string>
+S\'il vous plaît descendez après que la LED clignotex"</string>
     <string name="select_devices">Sélectionner les périphériques</string>
     <string name="select_devices_info">S\'il vous plaît sélectionnez Périphériques Mi à lier</string>
     <string name="weight_settings_merge_title">Regroupement des éléments de pesée fréquents</string>
@@ -685,6 +683,34 @@ S\'il vous plaît descendez après que la LED clignotex."</string>
     <string name="weight_tip_bmi_content">MC est l\'abréviation de Indice de Masse Corporelle. Utilisation internationale généralisée, car la quantité de graisse contenue dans le corps et ont une excellente relation, l\'IMC est le poids corporel (kg) divisé par la taille (en mètres) du côté secondaire</string>
     <string name="weight_tip_fat_name">Il suffit de regarder la valeur IMC ne peut être déterminée obèse</string>
     <string name="weight_tip_fat_content">L\'IMC est une valeur calculée à partir taille et le poids, le degré d\'obésité avec des critères simples, comme le poids standard, s\'il ya beaucoup de graisse.  Ainsi, les variations de poids corporel ou l\'augmentation musculaire confirment l\'abondance de graisse</string>
+    <string name="daily_sport_report">Daily sport result</string>
+    <string name="today_steps">Today steps</string>
+    <string name="daily_consume">Consumed today（Cal）</string>
+    <string name="week_total_distance">Week distance（Km）</string>
+    <string name="continue_reach_goal_days">"Longest 
+streak"</string>
+    <string name="equals_fat">"Equals to burn 
+%1$s grams of fat."</string>
+    <string name="daily_sport_report_contintue_info">"%1$s lazy days left,
+ personal record is %2$s days"</string>
+    <string name="daily_sport_report_week_info">"Walked %1$s steps.
+saved %2$s gallons of gas"</string>
+    <string name="del_family_member">确认删除家庭成员?</string>
+    <string name="del_family_member_content">删除家庭成员会同步删除名下所有的称重纪录，并且无法恢复，确认继续?</string>
+    <string name="mi_band">Mi Band</string>
+    <string name="add_family_member">添加家庭成员</string>
+    <string name="delete_family_member">删除家庭成员</string>
+    <string name="daily_sport_report_notify">Today walked %s, excellent!</string>
+    <string name="daily_sport_report_notify_content">Click to see the results.</string>
+    <string name="exceed_user">Exceed user</string>
+    <string name="setting_daily_sport_notify_info">Remind me at 9:30PM.</string>
+    <string name="setting_daily_sport_notify">Daily sport result notify</string>
+    <string name="daily_sport_report_notify_hurry">"Need %1$s steps to reach today's goal!"</string>
+    <string name="weight_overload_title">超出测量最大值</string>
+    <string name="weight_overload_content">目前小米体重秤最大可称量150公斤, 超出此标准的重量级人物只能对不起啦</string>
+    <string name="weight_overload_confirm">知道了</string>
+    <string name="noti_weight_low_battery_title">小米体重秤电量低</string>
+    <string name="noti_weight_low_battery_content">请在更换电池后连接体重秤初始化系统时间</string>
     <string name="lab_factory_title">Activités</string>
     <string name="lab_factory_sport_type_situp">Abdominaux</string>
     <string name="lab_factory_sport_type_ropeskipping">Corde à sauter</string>
@@ -801,6 +827,7 @@ S\'il vous plaît descendez après que la LED clignotex."</string>
     <string name="sport_running_history_title">Historique</string>
     <string name="sport_running_history_date" formatted="false">%d/%d/%d</string>
     <string name="sport_running_history_no_data">Aucune données</string>
+    <string name="sport_running_history_no_more_data">Aucune données</string>
     <string name="sport_running_history_no_data_refresh">Aucune donnée. S\'il vous plaît cliquer pour rafraîchir</string>
     <string name="sport_running_history_no_data_refreshing">Rafraîchissant. Patienter...</string>
     <string name="sport_running_cost_cal">%.1f cal</string>
@@ -862,6 +889,7 @@ S\'il vous plaît descendez après que la LED clignotex."</string>
     <string name="watermark_btn_confirm">Confirmer</string>
     <string name="watermark_guide_tips">Appuyez pour déplacer</string>
     <string name="no_bracelet_tips">(Disponible uniquement lorsque le Mi-Fit et connecté)</string>
+    <string name="label_runner_group">Runner Club</string>
     <string name="action_mark">Comportement de marquage</string>
     <string name="action_sleep">Sommeil</string>
     <string name="action_bath">Bain</string>
@@ -871,6 +899,10 @@ S\'il vous plaît descendez après que la LED clignotex."</string>
     <string name="action_badminton">Badminton</string>
     <string name="action_basketball">Basketball</string>
     <string name="action_pingpong">Pingpong</string>
+    <string name="action_sit">sit</string>
+    <string name="action_stand">stand</string>
+    <string name="action_bus">bus</string>
+    <string name="title_action_tag_agreement">Behavior Tagging Agreement</string>
     <string name="complete">Complet</string>
     <string name="notice_for_tag_time">Notez: le nombre après X signifie que le nombre de fois que vous marqué</string>
     <string name="choose_tag_item">Quel chose allez-vous faire ?</string>
@@ -881,8 +913,20 @@ S\'il vous plaît descendez après que la LED clignotex."</string>
     <string name="toast_disable_behavior_tag">Comportement fonction de tag désactivé ！</string>
     <string name="action_brush_tooth">Se brosser les dents</string>
     <string name="data_loading">Chargement... S\'il vous plaît attendre un moment</string>
+    <string name="toast_url_parse_error">Url format is error!</string>
+    <string name="tag_reconnect_notice">Bracelet reconnected, please try again!</string>
+    <string name="action_scan_friend">QR Code</string>
     <string name="sport_running_helper_test">Lancer des tests</string>
     <string name="sport_coming_soon">"C'est en cours, alors restez branchés !"</string>
+    <string name="tag_action_tips">在%s的过程中，请确保手环和手机保持在5米的范围内，并且中间不要隔墙，以确保标注成功。</string>
+    <string name="tag_doing_label">%s中…</string>
+    <string name="tag_connection">正在连接手环</string>
+    <string name="tag_waiting">请稍后………</string>
+    <string name="tag_connection_f">连接失败，点击重试</string>
+    <string name="tag_connection_f1">请将手环靠近手机</string>
+    <string name="tag_error_notice">"手环与app连接断开，标注失败，请确保手环
+与app在5米以内，且不隔墙,再次开始标注"</string>
+    <string name="data_not_supported">--</string>
     <string name="lab_factory_internal_test">Analyse des habitudes de mouvement</string>
     <string name="debug_host_label">"Ajouter une adresse d'hôte："</string>
     <string name="host_can_not_be_empty">"L'adresse serveur ne peut pas être vide"</string>
