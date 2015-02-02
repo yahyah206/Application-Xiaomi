@@ -683,12 +683,12 @@ S\'il vous plaît descendez après que la LED clignotex"</string>
     <string name="weight_tip_bmi_content">MC est l\'abréviation de Indice de Masse Corporelle. Utilisation internationale généralisée, car la quantité de graisse contenue dans le corps et ont une excellente relation, l\'IMC est le poids corporel (kg) divisé par la taille (en mètres) du côté secondaire</string>
     <string name="weight_tip_fat_name">Il suffit de regarder la valeur IMC ne peut être déterminée obèse</string>
     <string name="weight_tip_fat_content">L\'IMC est une valeur calculée à partir taille et le poids, le degré d\'obésité avec des critères simples, comme le poids standard, s\'il ya beaucoup de graisse.  Ainsi, les variations de poids corporel ou l\'augmentation musculaire confirment l\'abondance de graisse</string>
-    <string name="daily_sport_report">Daily sport result</string>
-    <string name="today_steps">Today steps</string>
-    <string name="daily_consume">Consumed today（Cal）</string>
-    <string name="week_total_distance">Week distance（Km）</string>
-    <string name="continue_reach_goal_days">"Longest 
-streak"</string>
+    <string name="daily_sport_report">Résultat du sport quotidien</string>
+    <string name="today_steps">Pas aujourd\'hui</string>
+    <string name="daily_consume">Consommée aujourd\'hui（Cal）</string>
+    <string name="week_total_distance">Distance de la semaine（Km）</string>
+    <string name="continue_reach_goal_days">"La plus longue 
+série"</string>
     <string name="equals_fat">"Equals to burn 
 %1$s grams of fat."</string>
     <string name="daily_sport_report_contintue_info">"%1$s lazy days left,
@@ -697,14 +697,14 @@ streak"</string>
 saved %2$s gallons of gas"</string>
     <string name="del_family_member">确认删除家庭成员?</string>
     <string name="del_family_member_content">删除家庭成员会同步删除名下所有的称重纪录，并且无法恢复，确认继续?</string>
-    <string name="mi_band">Mi Band</string>
+    <string name="mi_band">Mi-Fit</string>
     <string name="add_family_member">添加家庭成员</string>
     <string name="delete_family_member">删除家庭成员</string>
     <string name="daily_sport_report_notify">Today walked %s, excellent!</string>
     <string name="daily_sport_report_notify_content">Click to see the results.</string>
-    <string name="exceed_user">Exceed user</string>
-    <string name="setting_daily_sport_notify_info">Remind me at 9:30PM.</string>
-    <string name="setting_daily_sport_notify">Daily sport result notify</string>
+    <string name="exceed_user">Dépasser l\'utilisateur</string>
+    <string name="setting_daily_sport_notify_info">Rappelez-moi à 9:30PM</string>
+    <string name="setting_daily_sport_notify">Notifier résultat du sport quotidien</string>
     <string name="daily_sport_report_notify_hurry">"Need %1$s steps to reach today's goal!"</string>
     <string name="weight_overload_title">超出测量最大值</string>
     <string name="weight_overload_content">目前小米体重秤最大可称量150公斤, 超出此标准的重量级人物只能对不起啦</string>
