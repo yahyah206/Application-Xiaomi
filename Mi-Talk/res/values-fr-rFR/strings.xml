@@ -8,7 +8,7 @@
     <string name="PH">phone book</string>
     <string name="QQ">QQ</string>
     <string name="RR">RenRen</string>
-    <string name="SDcard_tip_is_full">Your SD card does not have enough space for some of MiTalk features.</string>
+    <string name="SDcard_tip_is_full">Votre carte SD n'a pas assez d'espace pour certaines fonctions de MiTalk.</string>
     <string name="SDcard_tip_is_full_when_capture_image">Please leave enough space in SD card for doodle sending.</string>
     <string name="SDcard_tip_is_full_when_download_smiley">Please leave enough space for more emoticons in SD card.</string>
     <string name="SDcard_tip_is_full_when_gif">Please leave enough space in SD card for gif file sending.</string>
@@ -3726,7 +3726,7 @@ Tap arrow to switch between video and audio message mode."</string>
     <string name="save">Save</string>
     <string name="save_and_send_email">Confirm by email</string>
     <string name="save_and_send_sms">Verify using SMS</string>
-    <string name="save_barcode">Save QR code to your phone</string>
+    <string name="save_barcode">SaveRecommendations QR code to your phone</string>
     <string name="save_error">Failed</string>
     <string name="save_image">Save</string>
     <string name="save_image_failed">Failed to save, please make sure your SD card has enough room.</string>
@@ -4650,7 +4650,7 @@ Note: verification code expires after 24hrs from the time it gets delivered."</s
     <string name="verify_email_dialog_known">Got it</string>
     <string name="verify_email_dialog_text">Your will receive a confirmation email from us shortly. Follow the instructions to complete verification.</string>
     <string name="verify_email_has_send">We have sent you a confirmation email.</string>
-    <string name="verify_email_has_sent">We have sent you a confirmation email.</string>
+    <string name="verify_email_has_sent">We have sent you a confirmation email.</string name=string>
     <string name="verify_email_tip_msg">You will receive an email with a confirmation link from us.</string>
     <string name="verify_later_hint">You may also verify phone number in your profile later. Back to the previous page and choose skip to enter MiTalk.</string>
     <string name="verify_muc_email_tail_hit">E-mail suffix</string>
@@ -4991,3 +4991,4 @@ Now, sit back and enjoy a life having MiTalk!"</string>
     <string name="zero_miliao_friends_from_renren">"It doesn't look like any of your friends on Renren are using MiTalk."</string>
     <string name="ziliao">Profile</string>
 </resources>
+video_no_camera
